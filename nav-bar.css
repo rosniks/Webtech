@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(107, 25, 46, 0.863);
+    color: white;
+}
+
+.logo {
+
+    display: block;
+    font-size: 2rem;
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    font-size: larger;
+    text-decoration: none;
+    padding: 1.45rem 1rem;
+    color: white;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: rgba(107, 25, 46, 0.938);
+}
+
+.sandwich-button {
+    top: 1.4rem;
+    right: 1rem;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 25px;
+}
+
+.sandwich-button .strich {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 710px) {
+    .sandwich-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+}
