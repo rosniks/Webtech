@@ -12,6 +12,18 @@
     color: white;
 }
 
+.inner-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(107, 25, 46, 0.432);
+    color: white;
+}
+
+.aktuell {
+    background-color: rgba(107, 25, 46, 0.856);
+}
+
 .logo {
 
     display: block;
