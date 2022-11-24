@@ -25,7 +25,7 @@
 
 .aktuell {
     background-color: rgba(107, 25, 46, 0.856);
-    text-decoration: underline;
+    text-decoration: underline 2px;
 }
 
 .logo {

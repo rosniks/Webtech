@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: rgba(107, 25, 46, 0.151);
+    background-color: white; /*ursprünglich rgba(107, 25, 46, 0.151);*/
 }
 
 img {
@@ -58,20 +58,26 @@ p.beschreibung {
 }
 
 .vButton {
-    background-color: rgba(68, 4, 20, 0.523);
-    border: 2px solid black;
-    border-radius: 8px;
+    margin: 2em 4em;
+    border: none;
+    border-radius: 2rem;
     padding: 15px 32px;
+    
+    background-color: rgba(107, 25, 46, 0.432);
     text-align: center;
-    text-decoration: none;
+
     display: inline-block;
     font-size: 16px;
-    margin: 2em 2em;
     cursor: pointer;
     transition-duration: 0.4s;
   }
 
+  .vButton a {
+    color: white;
+    text-decoration: none;
+  }
+
   .vButton:hover {
     background-color: grey;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.2);
   }
