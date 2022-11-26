@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -59,7 +60,7 @@ main p {
 }
 
 .news-feld p{
-    font-size: large;
+    font-size: 150%;
     float: left;
     text-align: left;
     padding-left: 2rem;
