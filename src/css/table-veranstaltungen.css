@@ -4,7 +4,7 @@
 }
 
 .vName{
-    width: 50%;
+    width: 35%;
 }
 
 th {
@@ -14,7 +14,7 @@ th {
 }
 
 td {
-    height: 2em;
+    height: 2.5em;
     border-bottom: 1px solid rgb(0, 0, 0);
     font-size: large;
 }
