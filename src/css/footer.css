@@ -21,9 +21,17 @@ footer div h3 {
     flex-grow: 2;
 }
 
+.col2 {
+    height: 60px;
+}
+
 
 footer a {
     text-decoration: none;
     color: rgb(0, 0, 0);    
     padding: 20px
+}
+
+footer a:hover {
+    color: white;
 }
