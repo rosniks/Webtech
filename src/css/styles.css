@@ -6,7 +6,8 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: white; /*ursprünglich rgba(107, 25, 46, 0.151);*/
+    background-color: white;
+    /*ursprünglich rgba(107, 25, 46, 0.151);*/
 }
 
 img {
@@ -28,7 +29,7 @@ main h1 {
     padding: 2rem 10%;
 }
 
-main p{
+main p {
     padding: 2rem 10%;
     font-size: larger;
 }
@@ -62,7 +63,7 @@ p.beschreibung {
     border: none;
     border-radius: 2rem;
     padding: 15px 32px;
-    
+
     background-color: rgba(107, 25, 46, 0.432);
     text-align: center;
 
@@ -70,14 +71,14 @@ p.beschreibung {
     font-size: 16px;
     cursor: pointer;
     transition-duration: 0.4s;
-  }
+}
 
-  .vButton a {
+.vButton a {
     color: white;
     text-decoration: none;
-  }
+}
 
-  .vButton:hover {
+.vButton:hover {
     background-color: grey;
-    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.2);
-  }
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
