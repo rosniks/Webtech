@@ -1,6 +1,6 @@
 .veranstaltung {
-    width: 100%;
-    padding: 3rem 5rem;
+    margin: 3rem 7.5%;
+    width: 85%;
 }
 
 .vDate {
@@ -12,15 +12,15 @@
 }
 
 th {
-    height: 3em;
-    font-size: larger;
+    height: 3rem;
+    font-size: 1.25rem;
     background-color: rgba(68, 4, 20, 0.523);
 }
 
 td {
-    height: 2.5em;
+    height: 2.5rem;
     border-bottom: 1px solid rgb(0, 0, 0);
-    font-size: large;
+    font-size: 1rem;
 }
 
 td a {
