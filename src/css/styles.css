@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -10,28 +11,79 @@ body {
     /*ursprünglich rgba(107, 25, 46, 0.151);*/
 }
 
-img {
-    width: 80rem;
-    display: block;
-    max-width: 90%;
-    height: auto;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-}
+/*----allgemein----*/
 
 main {
     min-height: 67vh;
 }
 
 main h1 {
-    padding: 2rem 10%;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 main p {
     padding: 2rem 10%;
-    font-size: larger;
+    font-size: 4vw;
+}
+
+/*----Slider für die Hauptseite----*/
+
+.slider {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+}
+
+.slide img {
+    height: 80vh;
+}
+
+/*----News Hauptseite----*/
+
+.news {
+    margin-top: 2rem;
+    ;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.news-feld {
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.news-feld a {
+    color: rgb(164, 19, 19);
+}
+
+.news-feld a:hover {
+    color: rgb(28, 11, 11);
+    text-decoration: underline;
+}
+
+.news-feld p {
+    font-size: 150%;
+    float: left;
+    text-align: left;
+    padding-left: 2rem;
+    margin-top: -50px;
+}
+
+.news-feld p a {
+    text-decoration: none;
+}
+
+.newsbild {
+    max-width: 80%;
+    margin-left: 10%;
 }
 
 /*..........Festlegungen für Veranstaltungsmuster..........*/
