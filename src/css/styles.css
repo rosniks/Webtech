@@ -11,17 +11,7 @@ body {
     /*ursprünglich rgba(107, 25, 46, 0.151);*/
 }
 
-
-img {
-    width: 80rem;
-    display: block;
-    max-width: 90%;
-    height: auto;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-}
+/*----allgemein----*/
 
 main {
     min-height: 67vh;
@@ -37,29 +27,49 @@ main p {
     font-size: 4vw;
 }
 
+/*----Slider für die Hauptseite----*/
+
+.slider {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+}
+
+.slide img {
+    height: 80vh;
+}
+
+/*----News Hauptseite----*/
+
 .news {
+    margin-top: 2rem;
+    ;
     display: flex;
     justify-content: center;
     height: 600px;
     margin-bottom: 50px;
 }
 
-.news-feld{
+.news-feld {
     padding-top: 10px;
     height: 100%;
-    width:100%;
+    width: 100%;
 }
 
-.news-feld a{
+.news-feld a {
     color: rgb(164, 19, 19);
 }
 
-.news-feld a:hover{
+.news-feld a:hover {
     color: rgb(28, 11, 11);
     text-decoration: underline;
 }
 
-.news-feld p{
+.news-feld p {
     font-size: 150%;
     float: left;
     text-align: left;
@@ -67,12 +77,12 @@ main p {
     margin-top: -50px;
 }
 
-.news-feld p a{
+.news-feld p a {
     text-decoration: none;
 }
 
-.newsbild{
-    width:80%;
+.newsbild {
+    max-width: 80%;
     margin-left: 10%;
 }
 
