@@ -89,31 +89,52 @@ main p {
 
 /*..........Festlegungen für Veranstaltungs- / Kursmuster..........*/
 
-h1.vTitel {
+h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, .flex-container, hr {
     /* top/bottom left/right */
     margin: 1rem 7.5%;
+}
+
+p.schlagwort, p.datum, p.beschreibung, .flex-container > div, .vButton a  {
+    font-size: 1.25rem;
+}
+
+h1.vTitel {
     padding: 2rem 0rem 0rem 0rem;
     text-align: left;
     font-size: 2rem;
     color: rgb(131, 19, 19);
-    text-decoration: underline;
 }
 
-p.schlagwort {
-    margin: 1rem 10% 1rem 12%;
+p.schlagwort, p.datum {
     padding: 0rem 0rem 2rem 0rem;
-    font-size: 1.25rem;
-    text-transform: uppercase;
     color: grey;
 }
 
+
 p.beschreibung {
-    margin: 1rem 10% 1rem 12%;
-    border-left-style: solid;
-    border-left-width: 0.5rem;
-    padding: 2rem;
-    font-size: 1.25rem;
+    padding: 1rem 0rem;
 }
+
+
+p.kUebersicht {
+    padding: 2rem 0rem 0rem 0rem;
+    text-transform: uppercase;
+    font: bold italic 1rem/1 sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    /*background-color: grey;*/
+}
+  
+.flex-container > div {
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/*..........Buttondesign der Veranstaltungen..........*/
 
 .vButton {
     margin: 2rem 4rem;
@@ -132,7 +153,6 @@ p.beschreibung {
 .vButton a {
     color: white;
     text-decoration: none;
-    font-size: 1.25rem;
 }
 
 .vButton:hover {
