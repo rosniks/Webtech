@@ -1,10 +1,14 @@
 .veranstaltung {
     width: 100%;
-    padding: 0% 5%;
+    padding: 3rem 5rem;
+}
+
+.vDate {
+    width: 17.5%;
 }
 
 .vName{
-    width: 35%;
+    width: 30%;
 }
 
 th {
@@ -26,4 +30,3 @@ td a {
 tr:hover {
     background-color: rgba(68, 4, 20, 0.523);
 }
-
