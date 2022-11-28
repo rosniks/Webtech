@@ -85,7 +85,46 @@ main p {
     margin-left: 10%;
 }
 
+
+/*..........Veranstaltungs- / Kurstabellen..........*/
+
+
+.tableContainer {
+    margin: 3rem 5%;
+    width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+}
+
+.veranstaltung {
+    top: 0;
+    width: 100%;
+    min-width: 65rem;
+}
+
+th {
+    height: 3rem;
+    font-size: 1.25rem;
+    background-color: rgba(68, 4, 20, 0.523);
+}
+
+td {
+    height: 2.5rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+td a {
+    color: black;
+}
+
+tr:hover {
+    background-color: rgba(68, 4, 20, 0.523);
+}
+
+
 /*..........Festlegungen für Veranstaltungs- / Kursmuster..........*/
+
 
 h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, .flex-container, hr {
     /* top/bottom left/right */
@@ -122,7 +161,7 @@ p.kUebersicht {
 
 .flex-container {
     display: flex;
-    /*background-color: grey;*/
+    flex-wrap: wrap;
 }
   
 .flex-container > div {
@@ -130,12 +169,15 @@ p.kUebersicht {
     margin: 0.5rem;
     padding: 1rem;
     text-align: center;
+    border-style:groove;
 }
+
 
 /*..........Buttondesign der Veranstaltungen..........*/
 
+
 .vButton {
-    margin: 2rem 4rem;
+    margin: 2rem 5%;
     border: none;
     border-radius: 2rem;
     padding: 1.5rem 3rem;
