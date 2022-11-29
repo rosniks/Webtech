@@ -1,72 +1,89 @@
 <!DOCTYPE html>
 <html lang="de">
 
-    <head>
-        <link rel="stylesheet" href="../css/styles.css">
-        <link rel="stylesheet" href="../css/nav-bar.css">
-        <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/table-veranstaltungen.css">
-        <title>Veranstaltungsmuster</title>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/nav-bar.js" type="text/javascript" defer></script>
+    <title>Veranstaltungsmuster</title>
+</head>
 
-    <body>
+<body>
 
-        <!--Navigation-bar-->
-        <header class="stick">
-            <nav class="navbar">
-                <a class="logo" href="index.html">Logo</a>
-                <a href="#" class="sandwich-button">
-                    <span class="strich"></span>
-                    <span class="strich"></span>
-                    <span class="strich"></span>
-                </a>
-                <div class="navbar-links">
-                    <ul>
-                        <li><a href="Veranstaltungen.html">Veranstaltungen</a></li>
-                        <li><a href="#">Räume</a></li>
-                        <li><a href="#">Über Uns</a></li>
-                        <li><a href="#">Galerie</a></li>
-                        <li><a href="#">Kontakt</a></li>
-                        <li><a href="#">Suche</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-
-        <main>
-
-            <button class="vButton"><a href="Veranstaltungen.html">Zurück zur Übersicht</a></button>
-
-                <h1 class="vTitel">Veranstaltungsmuster 1</h1>
-                <p class="schlagwort">Musterschlagwörter</p>
-                <p class="beschreibung">
-                    Dies ist lediglich ein Muster.<br>
-                    Es ist jetzt nicht besonders schön, aber hier steckt viel Arbeit drin.
-                    <br><br>
-                    Vielleicht mach ich aus dem Muster mal die Rentnerdisco. Wer weis.
-                </p>
-            
-            <button class="vButton"><a href="#">Zum Kontaktformular</a></button>
-
-        </main>
-
-
-        <!--Footer-->
-        <footer>
-            <div class="col1">
-                <h3>Kontakt</h3>
-                <p>Gemeindezentrum Trier-West</p>
-                <p>In dieser Straße 7</p>
-                <p>54293 Trier</p>
-                <p>Tel.: 06511 / 123456789</p>
+    <!--Navigation-bar-->
+    <header class="stick">
+        <nav class="navbar">
+            <a class="logo" href="index.html">Logo</a>
+            <a href="#" class="sandwich-button">
+                <span class="strich"></span>
+                <span class="strich"></span>
+                <span class="strich"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="aktuell" href="Veranstaltungen.html">Veranstaltungen</a></li>
+                    <li><a href="#">Räume</a></li>
+                    <li><a href="ÜberUns.html">Über Uns</a></li>
+                    <li><a href="#">Galerie</a></li>
+                    <li><a href="Kontakte.html">Kontakt</a></li>
+                    <li><a href="#">Suche</a></li>
+                </ul>
             </div>
-            <div class="col2">
-                <a href="#">Impressum</a>
-                <a href="#">Datenschutzrichtlinien</a>   
-            </div>
-        </footer>
+        </nav>
+    </header>
 
-    </body>
+
+    <main>
+
+        <button class="vButton">
+            <a href="Veranstaltungen.html">
+                Zurück zur Veranstaltungs-Übersicht
+            </a>
+        </button>
+
+        <h1 class="vTitel">
+            Veranstaltungsmuster 1
+        </h1>
+        <p class="schlagwort">
+            Musterschlagwörter
+        </p>
+        <p class="datum">
+            am XX.XX.20XX um XX:XX Uhr, Mustersaal
+        </p>
+        <p class="beschreibung">
+            Dies ist lediglich ein Muster.
+            <br>
+            Es ist jetzt nicht besonders schön, aber hier steckt viel Arbeit drin.
+            <br><br>
+            Vielleicht mach ich aus dem Muster mal die Rentnerdisco. Wer weis.
+        </p>
+
+        <button class="vButton">
+            <a href="Kontakte.html">
+                Weiter zur Kontaktseite mit Formular
+            </a>
+        </button>
+
+    </main>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="col1">
+            <h3>Kontakt</h3>
+            <p>Gemeindezentrum Trier-West</p>
+            <p>In dieser Straße 7</p>
+            <p>54293 Trier</p>
+            <p>Tel.: 06511 / 123456789</p>
+        </div>
+        <div class="col2">
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutzrichtlinien</a>
+        </div>
+    </footer>
+
+</body>
 
 </html>

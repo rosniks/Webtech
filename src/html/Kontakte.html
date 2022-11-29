@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/nav-bar.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <script src="../js/nav-bar.js" type="text/javascript" defer></script>
+  <title>Kontakte</title>
+</head>
+
+<body>
+  <!--Navigation-bar-->
+  <header class="stick">
+    <nav class="navbar">
+      <a class="logo" href="index.html">Logo</a>
+      <a href="#" class="sandwich-button">
+        <span class="strich"></span>
+        <span class="strich"></span>
+        <span class="strich"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="Veranstaltungen.html">Veranstaltungen</a></li>
+          <li><a href="#">Räume</a></li>
+          <li><a href="ÜberUns.html">Über Uns</a></li>
+          <li><a href="#">Galerie</a></li>
+          <li><a class="aktuell" href="Kontakte.html">Kontakt</a></li>
+          <li><a href="#">Suche</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--Main-Content-->
+
+  <h2 align="center"> Wie k&oumlnnen Sie uns erreichen? </h2>
+  <p> <strong> Gemeindezentrum Trier West </strong> </p>
+  <p align="justify">Telefonnummer: +xx xxx xxxx-xxx </p>
+  <p align="justify"> E-Mail-Adresse: xxxxxx@trier.de </p>
+  <! -- vielleicht ein Link für E-Mail machen? -->
+    <p align="justify"> Soziale Medien: icons </p>
+    <p align="justify"> Anschrift: Irgendwelche Str. xx, 5429x Trier </p>
+
+    <figure>
+      <img src="../../img/Landkarte.jpg" alt="Gemeindezentrum Trier West">
+    </figure>
+
+    <p> Irgendwelche Information &uumlber das Kontaktformular, z.B. Beschreibung des Formulars, Verwendungszwecke,
+      Information über Datenverarbeitungszeit </p>
+    <p> Mit * gekennzeichnete Angaben sind erforderlich, damit wir Ihre Anfrage beantworten können. </p>
+    <p> Irgendwelche Information &uumlber das Kontaktformular, z.B. Beschreibung des Formulars, Verwendungszwecke,
+      Information über Datenverarbeitungszeit </p>
+
+    <form action="mailto: xxxxxx@trier.de">
+
+      <p>
+      <fieldset>
+        <legend>Ihr Name * </legend>
+        <label for="vorname">Vorname:</label>
+        <input type="text" id="vorname" name="Vorname" size="62">
+        <label for="nachname">Nachname:</label>
+        <input type="text" id="nachname" name="Nachname" size="62">
+      </fieldset>
+      </p>
+      <p>
+      <fieldset>
+        <legend>Ihre E-Mail-Adresse *</legend>
+        <input type="email" name="email" id="email" size="155">
+      </fieldset>
+      </p>
+
+      <p>
+      <fieldset>
+        <legend>Ihre Telefonnummer </legend>
+        <input type="telefon" name="telefon" id="telefon" size="155">
+      </fieldset>
+      </p>
+
+      <p>
+      <fieldset>
+        <legend>Betreff</legend>
+        <select name="zweck" id="zweck" style="width: 950px;">
+          <option value="zweck1"> Organisation einer Veranstaltung </option>
+          <option value="zweck2"> Raumbuchung </option>
+          <option value="zweck3"> Teilnahme am Kurs </option>
+          <option value="zweck4"> Zweck4 </option>
+          <option value="zweck5"> Zweck5 </option>
+        </select>
+      </fieldset>
+      </p>
+      <p>
+      <fieldset>
+        <legend>Ihre Anfrage</legend>
+        <input type="text" name="anfrage" id="anfrage" size="155" style="height: 180px;">
+        <! -- Wie kann ich das Feld "Ihre Anfrage" richtig einregulieren? -->
+      </fieldset>
+      </p>
+
+      <input type="submit" name="Abschicken" value="Senden" style="width: 120px;">
+      <input type="reset" name="Abbrechen" value="Abbrechen" style="width: 120px;">
+      <! -- Wie kann ich den Button "Abbrechen" linksbündig platzieren? (Ist es überhaupt relevant?) -->
+        <p>
+          <input type="checkbox" value="datenschutz" name="datenschuty">Ich habe die Datenschutzhinweise gelesen und
+          stimme der &uumlbertragung meiner Daten zu. * <br>
+        </p>
+        <! -- Wie realisiere ich Pflichtfelder? -->
+    </form>
+
+    <!--Footer-->
+    <footer>
+      <div class="col1">
+        <h3>Kontakt</h3>
+        <p>Gemeindezentrum Trier-West</p>
+        <p>In dieser Straße 7</p>
+        <p>54293 Trier</p>
+        <p>Tel.: 06511 / 123456789</p>
+      </div>
+      <div class="col2">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutzrichtlinien</a>
+      </div>
+    </footer>
+</body>
+
+</html>

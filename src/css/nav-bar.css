@@ -2,6 +2,7 @@
     position: sticky;
     top: 0;
     backdrop-filter: blur(5px);
+    z-index: 10;
 }
 
 .navbar {
@@ -15,7 +16,7 @@
 .inner-navbar {
     position: sticky;
     top: 68px;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,11 +26,10 @@
 
 .aktuell {
     background-color: rgba(107, 25, 46, 0.856);
-    text-decoration: underline;
+    text-decoration: underline 2px;
 }
 
 .logo {
-
     display: block;
     font-size: 2rem;
     margin: 1rem;
@@ -77,12 +77,35 @@
     border-radius: 10px;
 }
 
-@media (max-width: 710px) {
+@media  (max-width: 750px) {
     .sandwich-button {
         display: flex;
     }
 
     .navbar-links {
         display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .inner-navbar .navbar-links {
+        display: flex;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
     }
 }
