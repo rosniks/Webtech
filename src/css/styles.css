@@ -111,6 +111,7 @@ th {
 td {
     height: 2.5rem;
     border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: left;
     font-size: 1rem;
 }
 
