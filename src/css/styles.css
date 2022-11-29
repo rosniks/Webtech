@@ -132,7 +132,7 @@ h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, .flex-container
     margin: 1rem 7.5%;
 }
 
-p.schlagwort, p.datum, p.beschreibung, .flex-container > div, .vButton a  {
+p.schlagwort, p.datum, p.beschreibung, .flex-container > div, .vButton {
     font-size: 1.25rem;
 }
 
@@ -191,7 +191,7 @@ p.kUebersicht {
     transition-duration: 0.4s;
 }
 
-.vButton a {
+.vButton {
     color: white;
     text-decoration: none;
 }
