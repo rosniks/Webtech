@@ -1,6 +1,6 @@
 # Webtech
 
-3.1) Erster Teil der Realisierung
+3.1) Erster Teil der Realisierung [BIS 01.12.2022]
 
 Nach Bekanntgabe der Gruppen wird zuerst das Konzept erarbeitet und ein erster, einfacher 
 Prototyp der Seite erstellt. Es sollen nur Technologien aus der Vorlesung verwandt werden.
@@ -19,7 +19,7 @@ Sollte keine Abgabe stattfinden oder sind die Dateien falsch benannt, ist die Gr
 durchgefallen. Verspätete Abgaben oder Abgaben per Email werden nicht akzeptiert. Die 
 Abgabe dieser Version muss bis zum 1.12. (einschließlich) erfolgen.
 
-3.2) Zweiter Teil der Realisierung
+3.2) Zweiter Teil der Realisierung [BIS 15.01.2022]
 
 Am Ende des Semesters ist die finale Präsentation mit dem endgültigen Konzept (siehe 
 Datei „FinaleAbgabe“ in StudIP) abzugeben. Umfang der Ausarbeitung: max. 6 Seiten.
