@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/nav-bar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../js/nav-bar.js" defer></script>
+    <script src="../js/table-SearchEngine.js"></script>
+    <script src="../js/table-onClick.js"></script>
     <title>Veranstaltungen</title>
 </head>
 
@@ -53,7 +55,7 @@
         </p>
 
         <!--Input für die Veranstaltungssuche-->
-        <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Suche nach einer Veranstaltung...">
+        <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Suche nach Datum, Veranstaltung, ...">
 
         <!--Beginn der Veranstaltungstabelle-->
         
@@ -98,8 +100,6 @@
             </table>
         </div>
 
-        <!-- linking javascript -->
-        <script src="../js/table-SearchEngine.js"></script>
 
     </main>
 
