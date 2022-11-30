@@ -1,3 +1,5 @@
+/* Refernez: https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/ */
+
 function search_veranstaltung() {
     let input = document.getElementById('searchbar').value
     input = input.toLowerCase();

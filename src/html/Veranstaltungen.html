@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/nav-bar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../js/nav-bar.js" defer></script>
+    <script src="../js/table-SearchEngine.js"></script>
+    <script src="../js/table-onClick.js"></script>
     <title>Veranstaltungen</title>
 </head>
 
@@ -53,7 +55,7 @@
         </p>
 
         <!--Input für die Veranstaltungssuche-->
-        <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Suche nach einer Veranstaltung...">
+        <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Suche nach Datum, Veranstaltung, ...">
 
         <!--Beginn der Veranstaltungstabelle-->
         
@@ -65,31 +67,31 @@
                     <th>Raumangabe</th>
                     <th>Schlagworte</th>
                 </tr>
-                <tr class="veranstaltung">
+                <tr class="veranstaltung" id="v1">
                     <td>12.12.2022 19:00 Uhr</td>
                     <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 1</a></td>
                     <td>Mustersaal 1</td>
                     <td>Musterschlagwort A</td>
                 </tr>
-                <tr class="veranstaltung">
+                <tr class="veranstaltung" id="v2">
                     <td>13.12.2022 19:00 Uhr</td>
                     <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 2</a></td>
                     <td>Mustersaal 2</td>
                     <td>Musterschlagwort B</td>
                 </tr>
-                <tr class="veranstaltung">
+                <tr class="veranstaltung" id="v3">
                     <td>14.12.2022 19:00 Uhr</td>
                     <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 3</a></td>
                     <td>Mustersaal 3</td>
                     <td>Musterschlagwort C</td>
                 </tr>
-                <tr class="veranstaltung">
+                <tr class="veranstaltung" id="v4">
                     <td>15.12.2022 19:00 Uhr</td>
                     <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 4</a></td>
                     <td>Mustersaal 4</td>
                     <td>Musterschlagwort D</td>
                 </tr>
-                <tr class="veranstaltung">
+                <tr class="veranstaltung" id="v5">
                     <td>16.12.2022 19:00 Uhr</td>
                     <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 5</a></td>
                     <td>Mustersaal 5</td>
@@ -97,9 +99,6 @@
                 </tr>
             </table>
         </div>
-
-        <!-- linking javascript -->
-        <script src="../js/table-SearchEngine.js"></script>
 
     </main>
 
