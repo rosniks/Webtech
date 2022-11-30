@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/nav-bar.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/table-veranstaltungen.css">
-    <script src="../js/nav-bar.js" type="text/javascript" defer></script>
+    <script src="../js/nav-bar.js" defer></script>
     <title>Veranstaltungen</title>
 </head>
 
@@ -48,50 +47,59 @@
 
     <main>
 
-        <p>Hier finden Sie alle aktuellen Veranstaltungen. Diese sind nach Datum und Uhrzeit sortiert.</p>
+        <p>
+            Hier finden Sie alle aktuellen Veranstaltungen. Diese sind nach Datum und Uhrzeit sortiert.<br>
+            Eine genaue Beschreibung einer Veranstaltung öffnet sich mit einem Klick auf einen Veranstaltungsnamen.
+        </p>
 
-        <p>Hier kommt eine Suchleiste hin.</p>
+        <!--Input für die Veranstaltungssuche-->
+        <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Suche nach einer Veranstaltung...">
 
         <!--Beginn der Veranstaltungstabelle-->
+        
+        <div class="tableContainer">
+            <table class="table">
+                <tr>
+                    <th class="vDate">Datum & Uhrzeit</th>
+                    <th class="vName">Veranstaltungsname</th>
+                    <th>Raumangabe</th>
+                    <th>Schlagworte</th>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>12.12.2022 19:00 Uhr</td>
+                    <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 1</a></td>
+                    <td>Mustersaal 1</td>
+                    <td>Musterschlagwort A</td>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>13.12.2022 19:00 Uhr</td>
+                    <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 2</a></td>
+                    <td>Mustersaal 2</td>
+                    <td>Musterschlagwort B</td>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>14.12.2022 19:00 Uhr</td>
+                    <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 3</a></td>
+                    <td>Mustersaal 3</td>
+                    <td>Musterschlagwort C</td>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>15.12.2022 19:00 Uhr</td>
+                    <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 4</a></td>
+                    <td>Mustersaal 4</td>
+                    <td>Musterschlagwort D</td>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>16.12.2022 19:00 Uhr</td>
+                    <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 5</a></td>
+                    <td>Mustersaal 5</td>
+                    <td>Musterschlagwort E</td>
+                </tr>
+            </table>
+        </div>
 
-        <table class="veranstaltung">
-            <tr>
-                <th>Datum & Uhrzeit</th>
-                <th class="vName">Veranstaltungsname</th>
-                <th>Raumangabe</th>
-                <th>Schlagworte</th>
-            </tr>
-            <tr>
-                <td>12.12.2022 19:00 Uhr</td>
-                <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 1</a></td>
-                <td>Mustersaal 1</td>
-                <td>Musterschlagwort A</td>
-            </tr>
-            <tr>
-                <td>13.12.2022 19:00 Uhr</td>
-                <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 2</a></td>
-                <td>Mustersaal 2</td>
-                <td>Musterschlagwort B</td>
-            </tr>
-            <tr>
-                <td>14.12.2022 19:00 Uhr</td>
-                <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 3</a></td>
-                <td>Mustersaal 3</td>
-                <td>Musterschlagwort C</td>
-            </tr>
-            <tr>
-                <td>15.12.2022 19:00 Uhr</td>
-                <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 4</a></td>
-                <td>Mustersaal 4</td>
-                <td>Musterschlagwort D</td>
-            </tr>
-            <tr>
-                <td>16.12.2022 19:00 Uhr</td>
-                <td><a href="Veranstaltungsmuster.html">Veranstaltungsmuster 5</a></td>
-                <td>Mustersaal 5</td>
-                <td>Musterschlagwort E</td>
-            </tr>
-        </table>
+        <!-- linking javascript -->
+        <script src="../js/table-SearchEngine.js"></script>
 
     </main>
 

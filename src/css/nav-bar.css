@@ -16,7 +16,7 @@
 .inner-navbar {
     position: sticky;
     top: 68px;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
     display: flex;
     justify-content: center;
     align-items: center;

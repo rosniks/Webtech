@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
-    /*ursprünglich rgba(107, 25, 46, 0.151);*/
+    /*background-color: rgba(107, 25, 46, 0.151); geändert von Lara*/
 }
 
 /*----allgemein----*/
@@ -24,7 +24,8 @@ main h1 {
 
 main p {
     padding: 2rem 10%;
-    font-size: 4vw;
+    font-size: 1.25rem;
+    /*font-size: 4vw; geändert von Lara*/
 }
 
 /*----Slider für die Hauptseite----*/
@@ -84,51 +85,144 @@ main p {
     margin-left: 10%;
 }
 
-/*..........Festlegungen für Veranstaltungsmuster..........*/
 
-h1.vTitel {
-    /* top/bottom left/right */
-    margin: 2% 10%;
-    padding: 2% 0% 0% 0%;
-    color: rgb(131, 19, 19);
-    text-decoration: underline;
+/*..........Searchbar für Veranstaltungen..........*/
+/* Refernez: https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/ */
+
+
+#searchbar {
+    margin: 1rem 10%;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 80%;
 }
 
-p.schlagwort {
-    margin: 2% 10% 2% 12%;
-    padding: 0% 0% 2% 0%;
-    text-transform: uppercase;
+.veranstaltung {
+    display: table-row;
+}
+
+/*..........Veranstaltungs- / Kurstabellen..........*/
+
+
+.tableContainer {
+    margin: 3rem 5%;
+    width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+}
+
+.table {
+    top: 0;
+    width: 100%;
+    min-width: 65rem;
+}
+
+th {
+    height: 3rem;
+    font-size: 1.25rem;
+    background-color: rgba(68, 4, 20, 0.523);
+}
+
+td {
+    height: 2.5rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1rem;
+}
+
+td a {
+    color: black;
+}
+
+tr:hover {
+    background-color: rgba(68, 4, 20, 0.523);
+}
+
+
+/*..........Festlegungen für Veranstaltungs- / Kursmuster..........*/
+
+
+h1.vTitel,
+p.schlagwort,
+p.datum,
+p.beschreibung,
+p.kUebersicht,
+.flex-container,
+hr {
+    /* top/bottom left/right */
+    margin: 1rem 7.5%;
+}
+
+p.schlagwort,
+p.datum,
+p.beschreibung,
+.flex-container>div,
+.vButton {
+    font-size: 1.25rem;
+}
+
+h1.vTitel {
+    padding: 2rem 0rem 0rem 0rem;
+    text-align: left;
+    font-size: 2rem;
+    color: rgb(131, 19, 19);
+}
+
+p.schlagwort,
+p.datum {
+    padding: 0rem 0rem 2rem 0rem;
     color: grey;
 }
 
+
 p.beschreibung {
-    margin: 2% 10% 2% 12%;
-    border-left-style: solid;
-    border-left-width: 0.5rem;
-    padding: 2%;
+    padding: 1rem 0rem;
 }
 
+
+p.kUebersicht {
+    padding: 2rem 0rem 0rem 0rem;
+    text-transform: uppercase;
+    font: bold italic 1rem/1 sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    border-style: groove;
+}
+
+
+/*..........Buttondesign der Veranstaltungen..........*/
+
+
 .vButton {
-    margin: 2em 4em;
+    margin: 2rem 5%;
     border: none;
     border-radius: 2rem;
-    padding: 15px 32px;
+    padding: 1.5rem 3rem;
 
     background-color: rgba(107, 25, 46, 0.432);
     text-align: center;
 
     display: inline-block;
-    font-size: 16px;
     cursor: pointer;
     transition-duration: 0.4s;
 }
 
-.vButton a {
+.vButton {
     color: white;
     text-decoration: none;
 }
 
 .vButton:hover {
     background-color: grey;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0.75rem 0.75rem 1rem rgba(0, 0, 0, 0.3);
 }

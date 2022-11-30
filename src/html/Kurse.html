@@ -6,12 +6,10 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/nav-bar.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/table-veranstaltungen.css">
-    <script src="../js/nav-bar.js" type="text/javascript" defer></script>
+    <script src="../js/nav-bar.js" defer></script>
     <title>Kurse</title>
 </head>
 
-<body>
 <body>
 
         <!--Navigation-bar-->
@@ -48,63 +46,70 @@
 
     <main>
 
-        <p>Hier finden Sie alle aktuellen Kurse. Diese sind nach Datum und Uhrzeit der ERSTEN Veranstaltung sortiert.
+        <p>      
+            Hier finden Sie alle aktuellen Kurse. Diese sind nach Datum und Uhrzeit der jeweils ERSTEN Veranstaltung sortiert.<br>
+            Eine genaue Beschreibung eines Kurses öffnet sich mit einem Klick auf einen Kursnamen.
         </p>
 
-        <p>Hier kommt eine Suchleiste hin.</p>
+        <!--Input für die Veranstaltungssuche-->
+        <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Suche nach einer Veranstaltung...">
 
         <!--Beginn der Veranstaltungstabelle-->
+        <div class="tableContainer">
+            <table class="table">
+                <tr>
+                    <th class="vDate">Datum & Uhrzeit</th>
+                    <th class="vName">Kursname</th>
+                    <th>Terminanzahl</th>
+                    <th>Preis</th>
+                    <th>Raumangabe</th>
+                    <th>Schlagworte</th>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>12.12.2022 19:00 Uhr</td>
+                    <td><a href="Kursmuster.html">Kursmuster 1</a></td>
+                    <td>10x</td>
+                    <td>120€</td>
+                    <td>Mustersaal 1</td>
+                    <td>Musterschlagwort A</td>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>13.12.2022 19:00 Uhr</td>
+                    <td><a href="Kursmuster.html">Kursmuster 2</a></td>
+                    <td>7x</td>
+                    <td>55€</td>
+                    <td>Mustersaal 2</td>
+                    <td>Musterschlagwort B</td>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>14.12.2022 19:00 Uhr</td>
+                    <td><a href="Kursmuster.html">Kursmuster 3</a></td>
+                    <td>10x</td>
+                    <td>70€</td>
+                    <td>Mustersaal 3</td>
+                    <td>Musterschlagwort C</td>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>15.12.2022 19:00 Uhr</td>
+                    <td><a href="Kursmuster.html">Kursmuster 4</a></td>
+                    <td>5x</td>
+                    <td>30€</td>
+                    <td>Mustersaal 4</td>
+                    <td>Musterschlagwort D</td>
+                </tr>
+                <tr class="veranstaltung">
+                    <td>16.12.2022 19:00 Uhr</td>
+                    <td><a href="Kursmuster.html">Kursmuster 5</a></td>
+                    <td>10x</td>
+                    <td>100€</td>
+                    <td>Mustersaal 5</td>
+                    <td>Musterschlagwort E</td>
+                </tr>
+            </table>
+        </div>
 
-        <table class="veranstaltung">
-            <tr>
-                <th>Datum & Uhrzeit</th>
-                <th class="vName">Kursname</th>
-                <th>Terminanzahl</th>
-                <th>Preis</th>
-                <th>Raumangabe</th>
-                <th>Schlagworte</th>
-            </tr>
-            <tr>
-                <td>12.12.2022 19:00 Uhr</td>
-                <td><a href="Kursmuster.html">Kursmuster 1</a></td>
-                <td></td>
-                <td></td>
-                <td>Mustersaal 1</td>
-                <td>Musterschlagwort A</td>
-            </tr>
-            <tr>
-                <td>13.12.2022 19:00 Uhr</td>
-                <td><a href="Kursmuster.html">Kursmuster 2</a></td>
-                <td></td>
-                <td></td>
-                <td>Mustersaal 2</td>
-                <td>Musterschlagwort B</td>
-            </tr>
-            <tr>
-                <td>14.12.2022 19:00 Uhr</td>
-                <td><a href="Kursmuster.html">Kursmuster 3</a></td>
-                <td></td>
-                <td></td>
-                <td>Mustersaal 3</td>
-                <td>Musterschlagwort C</td>
-            </tr>
-            <tr>
-                <td>15.12.2022 19:00 Uhr</td>
-                <td><a href="Kursmuster.html">Kursmuster 4</a></td>
-                <td></td>
-                <td></td>
-                <td>Mustersaal 4</td>
-                <td>Musterschlagwort D</td>
-            </tr>
-            <tr>
-                <td>16.12.2022 19:00 Uhr</td>
-                <td><a href="Kursmuster.html">Kursmuster 5</a></td>
-                <td></td>
-                <td></td>
-                <td>Mustersaal 5</td>
-                <td>Musterschlagwort E</td>
-            </tr>
-        </table>
+        <!-- linking javascript -->
+        <script src="../js/table-SearchEngine.js"></script>
 
     </main>
 
