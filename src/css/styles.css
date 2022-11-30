@@ -356,8 +356,6 @@ p.kUebersicht {
     width:40vw;
     background-size:cover;
     float:right;
-    shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
-    shape-margin:20px;
     margin-top: 10px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%)
