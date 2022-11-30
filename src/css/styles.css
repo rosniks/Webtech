@@ -105,7 +105,6 @@ main p {
 
 
 /*..........Searchbar für Veranstaltungen..........*/
-/* Refernez: https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/ */
 
 
 #searchbar {
@@ -135,10 +134,23 @@ main p {
     min-width: 65rem;
 }
 
+.vDate {
+    width: 12.5rem;
+}
+
+.vName {
+    width: 20rem;
+}
+
+tr.veranstaltung:hover {
+    background-color: rgba(68, 4, 20, 0.523);
+    cursor: pointer;
+}
+
 th {
     height: 3rem;
     font-size: 1.25rem;
-    background-color: rgba(68, 4, 20, 0.523);
+    background-color: rgba(107, 25, 46, 0.856);
 }
 
 td {
@@ -150,10 +162,6 @@ td {
 
 td a {
     color: black;
-}
-
-tr:hover {
-    background-color: rgba(68, 4, 20, 0.523);
 }
 
 
@@ -183,7 +191,7 @@ h1.vTitel {
     padding: 2rem 0rem 0rem 0rem;
     text-align: left;
     font-size: 2rem;
-    color: rgb(131, 19, 19);
+    color: rgba(107, 25, 46, 0.856);
 }
 
 p.schlagwort,
@@ -243,4 +251,32 @@ p.kUebersicht {
 .vButton:hover {
     background-color: grey;
     box-shadow: 0.75rem 0.75rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+/*.........Für Kontakte und Formular.........*/
+
+.kontakte {
+    margin-top: 5%;
+    font-size: 1.25rem;
+}
+
+.formular {
+    display: flex;
+    margin: 3rem 4%;
+    width: 90%;
+}
+
+.map {
+    width: 300px;
+    height: 170px;
+    position: absolute;
+    top: 210px;
+    left: 590px;
+}
+
+.horizontal_dotted_line {
+    border-bottom: 3px dotted black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
