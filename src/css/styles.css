@@ -86,6 +86,21 @@ main p {
 }
 
 
+/*..........Searchbar für Veranstaltungen..........*/
+/* Refernez: https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/ */
+
+
+#searchbar {
+    margin: 1rem 10%;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 80%;
+}
+
+.veranstaltung {
+    display: table-row;
+}
+
 /*..........Veranstaltungs- / Kurstabellen..........*/
 
 
@@ -96,7 +111,7 @@ main p {
     scrollbar-width: thin;
 }
 
-.veranstaltung {
+.table {
     top: 0;
     width: 100%;
     min-width: 65rem;
@@ -127,12 +142,22 @@ tr:hover {
 /*..........Festlegungen für Veranstaltungs- / Kursmuster..........*/
 
 
-h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, .flex-container, hr {
+h1.vTitel,
+p.schlagwort,
+p.datum,
+p.beschreibung,
+p.kUebersicht,
+.flex-container,
+hr {
     /* top/bottom left/right */
     margin: 1rem 7.5%;
 }
 
-p.schlagwort, p.datum, p.beschreibung, .flex-container > div, .vButton {
+p.schlagwort,
+p.datum,
+p.beschreibung,
+.flex-container>div,
+.vButton {
     font-size: 1.25rem;
 }
 
@@ -143,7 +168,8 @@ h1.vTitel {
     color: rgb(131, 19, 19);
 }
 
-p.schlagwort, p.datum {
+p.schlagwort,
+p.datum {
     padding: 0rem 0rem 2rem 0rem;
     color: grey;
 }
@@ -164,13 +190,13 @@ p.kUebersicht {
     display: flex;
     flex-wrap: wrap;
 }
-  
-.flex-container > div {
+
+.flex-container>div {
     background-color: white;
     margin: 0.5rem;
     padding: 1rem;
     text-align: center;
-    border-style:groove;
+    border-style: groove;
 }
 
 
