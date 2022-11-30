@@ -1,5 +1,24 @@
 # Webtech
 
+Aufteilung der Bearbeitung:
+
+Lara Biewers
+- aktuelle Veranstaltungen / Muster
+- aktuelle Kurse / Muster
++ inner-NavBar
++ table-SearchEngine
++ table-onClick
+
+Niklas Rose
+- Startseite
++ Header / Footer / Haupt-NavBar
+
+Marta Khatsiur
+- Über uns
+
+Komila Vokhidova
+- Kontakte
+
 3.1) Erster Teil der Realisierung [BIS 01.12.2022]
 
 Nach Bekanntgabe der Gruppen wird zuerst das Konzept erarbeitet und ein erster, einfacher 
