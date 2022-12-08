@@ -14,18 +14,6 @@
     color: white;
 }
 
-.inner-navbar {
-    position: sticky;
-    top: 5rem;
-    backdrop-filter: blur(4px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2A6B47a0;
-    /*background-color: rgba(107, 25, 46, 0.432);*/
-    color: white;
-}
-
 .aktuell {
     border-radius: 1rem;
     background-color: #2A6B47;
@@ -84,6 +72,7 @@
 }
 
 @media (max-width: 750px) {
+    
     .sandwich-button {
         display: flex;
     }
@@ -96,10 +85,6 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .inner-navbar .navbar-links {
-        display: flex;
     }
 
     .navbar-links ul {
