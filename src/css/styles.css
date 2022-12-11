@@ -41,16 +41,61 @@ main p {
     flex: 0 0 100%;
     display: flex;
     align-items: center;
+    position: relative;
+    right: 0%;
+    transition: 1.5s;
 }
 
 .slide img {
     width: 60vw;
+    padding: 1rem;
+}
+
+.slide-beschreibung {
+    width: 40vw;
+}
+
+.slide-title {
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.slider-button {
+    width: 40%;
+    margin: 0 30%
+}
+
+.slider-button ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.slider-button li{
+    border: 1px solid black;
+    width: 2rem;
+    height: 1rem;
 }
 
 #hr_slide {
     border-top: 1px solid black;
     width: 100vw;
     margin: 0;
+}
+
+@media (max-width: 800px) {
+    .slide {
+        flex-wrap: wrap;
+    }
+
+    .slide img {
+        width: 98vw;
+    }
+
+    .slide-beschreibung {
+        width: 100vw;
+    }
 }
 
 /*----News Hauptseite----*/
