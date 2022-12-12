@@ -9,24 +9,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(107, 25, 46, 0.856);
-    color: white;
-}
-
-.inner-navbar {
-    position: sticky;
-    top: 68px;
-    backdrop-filter: blur(4px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(107, 25, 46, 0.432);
+    background-color: #2a6b47a0;
+    /*background-color: #6b192e6e;*/
     color: white;
 }
 
 .aktuell {
-    background-color: rgba(107, 25, 46, 0.856);
-    text-decoration: underline 2px;
+    border-radius: 1rem;
+    background-color: #2A6B47;
+    /*background-color: rgba(107, 25, 46, 0.856);*/
 }
 
 .logo {
@@ -44,19 +35,22 @@
 }
 
 .navbar-links li {
+    margin: 0.5rem 0.25rem;
     list-style: none;
 }
 
 .navbar-links li a {
     font-size: larger;
     text-decoration: none;
-    padding: 1.45rem 1rem;
+    padding: 1.25rem 0.75rem;
     color: white;
     display: block;
 }
 
 .navbar-links li:hover {
-    background-color: rgba(107, 25, 46, 0.938);
+    border-radius: 1rem;
+    background-color: #163825;
+    /*background-color: rgba(107, 25, 46, 0.938);*/
 }
 
 .sandwich-button {
@@ -78,6 +72,7 @@
 }
 
 @media (max-width: 800px) {
+
     .sandwich-button {
         display: flex;
     }
@@ -90,10 +85,6 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .inner-navbar .navbar-links {
-        display: flex;
     }
 
     .navbar-links ul {

@@ -1,130 +1,125 @@
 <!DOCTYPE html>
 <html lang="de">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/nav-bar.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <script src="../js/nav-bar.js" defer></script>
-    <script src="../js/table-SearchEngine.js"></script>
-    <script src="../js/table-onClick.js"></script>
-    <title>Veranstaltungen</title>
-</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/nav-bar.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <script src="../js/nav-bar.js" defer></script>
+        <script src="../js/table-SearchEngine.js"></script>
+        <script src="../js/table-onClick.js"></script>
+        <title>aktuelle Veranstaltungen</title>
+    </head>
 
-<body>
+    <body>
 
-    <!--Navigation-bar-->
-    <header class="stick">
-        <nav class="navbar">
-            <a class="logo" href="index.html">Logo</a>
-            <a href="#" class="sandwich-button">
-                <span class="strich"></span>
-                <span class="strich"></span>
-                <span class="strich"></span>
-            </a>
-            <div class="navbar-links">
-                <ul>
-                    <li><a class="aktuell" href="Veranstaltungen.html">Veranstaltungen</a></li>
-                    <li><a href="#">Räume</a></li>
-                    <li><a href="UberUns.html">Über Uns</a></li>
-                    <li><a href="#">Galerie</a></li>
-                    <li><a href="Kontakte.html">Kontakt</a></li>
-                    <li><a href="#">Suche</a></li>
-                </ul>
+        <!--Navigation-bar-->
+        <header class="stick">
+            <nav class="navbar">
+                
+                <a class="logo" href="index.html">Logo</a>
+                <a href="#" class="sandwich-button">
+                    <span class="strich"></span>
+                    <span class="strich"></span>
+                    <span class="strich"></span>
+                </a>
+
+                <div class="navbar-links">
+                    <ul>
+                        <li><a class="aktuell" href="Veranstaltungen.html">Veranstaltungen</a></li>
+                        <li><a href="#">Räume</a></li>
+                        <li><a href="UberUns.html">Über Uns</a></li>
+                        <li><a href="#">Galerie</a></li>
+                        <li><a href="Kontakte.html">Kontakt</a></li>
+                        <li><a href="SucheIntern.html">Suche</a></li>
+                    </ul>
+                    <ul>
+                        <li class="aktuell"><a href="Veranstaltungen.html">aktuelle Veranstaltungen</a></li>
+                        <li><a href="Kurse.html">aktuelle Kurse</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <!--Main-Content-->
+        <main>
+
+            <h1>aktuell geplante Veranstaltungen</h1>
+
+            <p>Sie möchten genaueres zu einer Veranstaltung wissen? Klicken Sie auf die entsprechende Tabellen-Spalte!</p>
+
+            <!--Input für die Veranstaltungssuche-->
+            <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Tabelle durchsuchen">
+
+            <!--Beginn der Veranstaltungstabelle-->
+            <div class="tableContainer">
+                <table class="table">
+                    <tr>
+                        <th class="vDate">Datum & Uhrzeit</th>
+                        <th class="vName">Veranstaltungsname</th>
+                        <th>Raumangabe</th>
+                        <th>Schlagworte</th>
+                    </tr>
+                    <tr class="veranstaltung">
+                        <td>31.01.2022 - ab 21:00 Uhr</td>
+                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.html">Silvester-Party</a></td>
+                        <td>Saal 1</td>
+                        <td>Silvester, Disco, Theke</td>
+                    </tr>
+                    <tr class="veranstaltung">
+                        <td>01.02.2023 - ab 17:00 Uhr</td>
+                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.html">Neujahres-Konzert</a></td>
+                        <td>Saal 2</td>
+                        <td>Musikverein, Theke, Konzert</td>
+                    </tr>
+                    <tr class="veranstaltung">
+                        <td>08.01.2023 - ab 15:00 Uhr</td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.html">Sonntags-Café</a></td>
+                        <td>Saal 1</td>
+                        <td>Altentag, Café, Kuchen, Musikverein</td>
+                    </tr>
+                    <tr class="veranstaltung">
+                        <td>20.02.2023 - beginn 19:00 Uhr</td>
+                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.html">Heimatkino</a></td>
+                        <td>Saal 3</td>
+                        <td>Kino</td>
+                    </tr>
+                    <tr class="veranstaltung">
+                        <td>12.02.2023 - ab 15:00 Uhr</td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.html">Sonntags-Café</a></td>
+                        <td>Saal 1</td>
+                        <td>Altentag, Café, Kuchen, Musikverein</td>
+                    </tr>
+                    <tr class="veranstaltung">
+                        <td>XX.XX.XXXX um XX:XX Uhr</td>
+                        <td><a href="Veranstaltungen/Veranstaltungsmuster.html">Muster</a></td>
+                        <td>MusterSaal</td>
+                        <td>Muster</td>
+                    </tr>
+                </table>
             </div>
-        </nav>
-    </header>
 
-    <!--Inner Navigation-->
-    <nav class="inner-navbar">
-        <div class="navbar-links">
-            <ul>
-                <li class="aktuell"><a href="Veranstaltungen.html">aktuelle Veranstaltungen</a></li>
-                <li><a href="Kurse.html">aktuelle Kurse</a></li>
-            </ul>
-        </div>
-    </nav>
+        </main>
 
+        <!--Footer-->
+        <footer>
+            <div class="col1">
+                <h3>Kontakt</h3>
+                <p>
+                    Gemeindezentrum Trier-West<br>
+                    In dieser Straße 7<br>
+                    54293 Trier<br>
+                    Tel.: 06511 / 123456789<br>
+                </p>
+            </div>
+            <div class="col2">
+                <a href="#">Impressum</a>
+                <a href="#">Datenschutzrichtlinien</a>
+            </div>
+        </footer>
 
-    <main>
-
-        <p>
-            Hier finden Sie alle aktuellen Veranstaltungen. Diese sind nach Datum und Uhrzeit sortiert.<br>
-            Eine genaue Beschreibung einer Veranstaltung öffnet sich mit einem Klick auf einen Veranstaltungsnamen.
-        </p>
-
-        <!--Input für die Veranstaltungssuche-->
-        <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Suche nach Datum, Veranstaltung, ...">
-
-        <!--Beginn der Veranstaltungstabelle-->
-        
-        <div class="tableContainer">
-            <table class="table">
-                <tr>
-                    <th class="vDate">Datum & Uhrzeit</th>
-                    <th class="vName">Veranstaltungsname</th>
-                    <th>Raumangabe</th>
-                    <th>Schlagworte</th>
-                </tr>
-                <tr class="veranstaltung">
-                    <td>31.01.2022 - ab 21:00 Uhr</td>
-                    <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.html">Silvester-Party</a></td>
-                    <td>Saal 1</td>
-                    <td>Silvester, Disco, Theke</td>
-                </tr>
-                <tr class="veranstaltung">
-                    <td>01.02.2023 - ab 17:00 Uhr</td>
-                    <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.html">Neujahres-Konzert</a></td>
-                    <td>Saal 2</td>
-                    <td>Musikverein, Theke, Konzert</td>
-                </tr>
-                <tr class="veranstaltung">
-                    <td>08.01.2023 - ab 15:00 Uhr</td>
-                    <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.html">Sonntags-Café</a></td>
-                    <td>Saal 1</td>
-                    <td>Altentag, Café, Kuchen, Musikverein</td>
-                </tr>
-                <tr class="veranstaltung">
-                    <td>20.02.2023 - beginn 19:00 Uhr</td>
-                    <td><a href="Veranstaltungen/VeranstaltungHeimatkino.html">Heimatkino</a></td>
-                    <td>Saal 3</td>
-                    <td>Kino</td>
-                </tr>
-                <tr class="veranstaltung">
-                    <td>12.02.2023 - ab 15:00 Uhr</td>
-                    <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.html">Sonntags-Café</a></td>
-                    <td>Saal 1</td>
-                    <td>Altentag, Café, Kuchen, Musikverein</td>
-                </tr>
-                <tr class="veranstaltung">
-                    <td>XX.XX.XXXX um XX:XX Uhr</td>
-                    <td><a href="Veranstaltungen/Veranstaltungsmuster.html">Muster</a></td>
-                    <td>MusterSaal</td>
-                    <td>Muster</td>
-                </tr>
-            </table>
-        </div>
-
-
-    </main>
-
-
-    <!--Footer-->
-    <footer>
-        <div class="col1">
-            <h3>Kontakt</h3>
-            <p>Gemeindezentrum Trier-West</p>
-            <p>In dieser Straße 7</p>
-            <p>54293 Trier</p>
-            <p>Tel.: 06511 / 123456789</p>
-        </div>
-        <div class="col2">
-            <a href="#">Impressum</a>
-            <a href="#">Datenschutzrichtlinien</a>
-        </div>
-    </footer>
-
-</body>
+    </body>
 
 </html>

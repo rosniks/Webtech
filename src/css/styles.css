@@ -9,7 +9,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
-    /*background-color: rgba(107, 25, 46, 0.151); geändert von Lara*/
 }
 
 /*----allgemein----*/
@@ -19,16 +18,15 @@ main {
 }
 
 main h1 {
-    text-align: center;
-    margin-bottom: 50px;
+    padding: 2rem 10%;
+    text-align: left;
+    color: #2A6B47;
 }
  
 main p {
     padding: 2rem 10%;
     font-size: 1.25rem;
-    /*font-size: 4vw; geändert von Lara*/
 }
-
 
 /*----Slider für die Hauptseite----*/
 
@@ -117,11 +115,11 @@ main p {
 }
 
 .news-feld a {
-    color: rgb(164, 19, 19);
+    color: #2A6B47;
 }
 
 .news-feld a:hover {
-    color: rgb(28, 11, 11);
+    color: #5B846D;
     text-decoration: underline;
 }
 
@@ -147,7 +145,7 @@ main p {
 }
 
 
-/*..........Searchbar für Veranstaltungen..........*/
+/*..........Searchbar-Design..........*/
 
 
 #searchbar {
@@ -155,6 +153,7 @@ main p {
     padding: 1rem;
     border-radius: 1rem;
     width: 80%;
+    font-size: 1.25rem;
 }
 
 .veranstaltung {
@@ -186,14 +185,16 @@ main p {
 }
 
 tr.veranstaltung:hover {
-    background-color: rgba(68, 4, 20, 0.523);
+    background-color: #47b87a80;
+    /*background-color: rgba(68, 4, 20, 0.523);*/
     cursor: pointer;
 }
 
 th {
     height: 3rem;
     font-size: 1.25rem;
-    background-color: rgba(107, 25, 46, 0.856);
+    background-color: #47B879;
+    /*background-color: rgba(107, 25, 46, 0.856);*/
 }
 
 td {
@@ -211,22 +212,12 @@ td a {
 /*..........Festlegungen für Veranstaltungs- / Kursmuster..........*/
 
 
-h1.vTitel,
-p.schlagwort,
-p.datum,
-p.beschreibung,
-p.kUebersicht,
-.flex-container,
-hr {
+h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, .flex-container, hr {
     /* top/bottom left/right */
     margin: 1rem 7.5%;
 }
 
-p.schlagwort,
-p.datum,
-p.beschreibung,
-.flex-container>div,
-.vButton {
+p.schlagwort, p.datum, p.beschreibung, .flex-container>div {
     font-size: 1.25rem;
 }
 
@@ -234,11 +225,10 @@ h1.vTitel {
     padding: 2rem 0rem 0rem 0rem;
     text-align: left;
     font-size: 2rem;
-    color: rgba(107, 25, 46, 0.856);
+    color: #2A6B47;
 }
 
-p.schlagwort,
-p.datum {
+p.schlagwort, p.datum {
     padding: 0rem 0rem 2rem 0rem;
     color: grey;
 }
@@ -269,7 +259,7 @@ p.kUebersicht {
 }
 
 
-/*..........Buttondesign der Veranstaltungen..........*/
+/*..........Buttondesign Veranstaltungen / Suche..........*/
 
 
 .vButton {
@@ -278,25 +268,44 @@ p.kUebersicht {
     border-radius: 2rem;
     padding: 1.5rem 3rem;
 
-    background-color: rgba(107, 25, 46, 0.432);
+    background-color: #5B846D;
     text-align: center;
+    font-size: 1.25rem;
 
     display: inline-block;
     cursor: pointer;
     transition-duration: 0.4s;
 }
 
-.vButton {
+.SearchButton {
+    margin: 2rem 5%;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+
+    background-color: #5B846D;
+    text-align: center;
+    font-size: 1.25rem;
+
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.vButton, .SearchButton {
     color: white;
     text-decoration: none;
 }
 
-.vButton:hover {
-    background-color: grey;
+.vButton:hover, .SearchButton:hover {
+    background-color: #2A6B47;
     box-shadow: 0.75rem 0.75rem 1rem rgba(0, 0, 0, 0.3);
 }
 
+
 /*ÜBER UNS*/
+
+
 .title {
     overflow: hidden;
     text-align: center;
