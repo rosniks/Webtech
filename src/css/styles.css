@@ -106,7 +106,7 @@ main p {
 }
 
 
-/*..........Searchbar für Veranstaltungen..........*/
+/*..........Searchbar-Design..........*/
 
 
 #searchbar {
@@ -178,7 +178,7 @@ h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, .flex-container
     margin: 1rem 7.5%;
 }
 
-p.schlagwort, p.datum, p.beschreibung, .flex-container>div, .vButton {
+p.schlagwort, p.datum, p.beschreibung, .flex-container>div {
     font-size: 1.25rem;
 }
 
@@ -220,7 +220,8 @@ p.kUebersicht {
 }
 
 
-/*..........Buttondesign der Veranstaltungen..........*/
+/*..........Buttondesign Veranstaltungen / Suche..........*/
+
 
 .vButton {
     margin: 2rem 5%;
@@ -230,23 +231,41 @@ p.kUebersicht {
 
     background-color: #5B846D;
     text-align: center;
+    font-size: 1.25rem;
 
     display: inline-block;
     cursor: pointer;
     transition-duration: 0.4s;
 }
 
-.vButton {
+.SearchButton {
+    margin: 2rem 5%;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+
+    background-color: #5B846D;
+    text-align: center;
+    font-size: 1.25rem;
+
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.vButton, .SearchButton {
     color: white;
     text-decoration: none;
 }
 
-.vButton:hover {
+.vButton:hover, .SearchButton:hover {
     background-color: #2A6B47;
     box-shadow: 0.75rem 0.75rem 1rem rgba(0, 0, 0, 0.3);
 }
 
+
 /*ÜBER UNS*/
+
 
 .title {
     overflow: hidden;
