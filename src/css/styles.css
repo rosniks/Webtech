@@ -4,6 +4,7 @@
 }
 
 body {
+    overflow-x: hidden;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -30,31 +31,69 @@ main p {
 /*----Slider für die Hauptseite----*/
 
 .slider {
-    border-style: solid;
-    margin: 4rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
 }
 
 .slide {
+    flex: 0 0 100%;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    right: 0%;
+    transition: 1.5s;
 }
 
 .slide img {
-    max-width: 100%;
-    height: auto;
-}
-
-.slide-beschreibung h1{
-    text-align: left;
-    padding: 2rem 10%;
+    width: 60vw;
+    padding: 1rem;
 }
 
 .slide-beschreibung {
+    width: 40vw;
+}
+
+.slide-title {
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.slider-button {
     width: 40%;
+    margin: 0 30%
+}
+
+.slider-button ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.slider-button li{
+    border: 1px solid black;
+    width: 2rem;
+    height: 1rem;
+}
+
+#hr_slide {
+    border-top: 1px solid black;
+    width: 100vw;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    .slide {
+        flex-wrap: wrap;
+    }
+
+    .slide img {
+        width: 98vw;
+    }
+
+    .slide-beschreibung {
+        width: 100vw;
+    }
 }
 
 /*----News Hauptseite----*/

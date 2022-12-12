@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="de">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/styles.css">
-        <link rel="stylesheet" href="../css/nav-bar.css">
-        <link rel="stylesheet" href="../css/footer.css">
-        <script src="../js/nav-bar.js" defer></script>
-        <title>Gemeindezentrum Trier-West</title>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/nav-bar.js" defer></script>
+    <script src="../js/slider.js" defer></script>
+    <title>Gemeindezentrum Trier-West</title>
+</head>
+
 
     <body>
 
@@ -34,20 +36,48 @@
             </nav>
         </header>
 
-        <!--Main-Content-->
-        <main>
-            <div class="slider">
-                <div class="slide">
-                    <img src="../../img/veranstaltung1.jpg" alt="Veranstaltung">
-                    <div class="slide-beschreibung">
-                        <h1 class="slide-title">Veranstaltung</h1>
-                        <p class="silde-text">Hier wird eine Slidshow implementiert, sodass die aktuellesten Events, die
-                            gepusht werden sollen, direkt auf der Startseite dargestellt sind. Desweitern können hier auch
-                            wichtige Neuigkeiten rund ums Gemeindezentrum gepackt werden.</p>
-                    </div>
+
+    <!--Main-Content-->
+    <main>
+        <div class="slider">
+            <div class="slide">
+                <img src="../../img/Gemeinschaftsraum.jpg" alt="Gemeinschaftsraum">
+                <div class="slide-beschreibung">
+                    <h1 class="slide-title">Freizeit</h1>
+                    <p class="silde-text">Entspannung pur erwartet euch im Gemeinschaftraum des Gemeindezentrums. Lernt neue Leute kennen und habt Spaß.</p>
                 </div>
             </div>
-            <hr>
+            <div class="slide">
+                <img src="../../img/Silvester-Party.jpg" alt="Silversterparty">
+                <div class="slide-beschreibung">
+                    <h1 class="slide-title">Silvester-Party</h1>
+                    <p class="slide-text">Lasst uns das neue Jahr zusammen begrüßen!</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="../../img/Sonntags-Cafe.jpg" alt="Sonntags-Cafe">
+                <div class="slide-beschreibung">
+                    <h1 class="slide-title">Sonntagskaffee</h1>
+                    <p class="slide-text">Nette Gespräche. Tolle Menschen. Leckerer Kaffee und Kuchen.</p>
+                </div>
+            </div>
+        </div>
+        <hr id="hr_slide">
+        <div class="slider-button">
+            <ul>
+                <li class="knopf" id="knopf1"></li>
+                <li class="knopf" id="knopf2"></li>
+                <li class="knopf" id="knopf3"></li>
+            </ul>
+        </div>
+        <hr id="hr_slide">
+        <div class="news">
+            <div class="news-feld">
+                <a href="#"><img src="../../img/weihnachtsmarkt.jpg" alt="Trier Weihnachtsmarkt" class="newsbild"></a>
+                <h1><a href="#">Weihnachtsmarkt</a></h1>
+                <p>Die Vorfreude ist riesig: der Trierer Weihnachtsmarkt hat am Freitag, 18.11.2022 begonnen. Nach
+                    zweijährige Corona-Pause kehrt er beinahe im Normalzustand zurück,... <a href="#">weiterlesen</a>
+                    
             <div class="news">
                 <div class="news-feld">
                     <a href="#"><img src="../../img/weihnachtsmarkt.jpg" alt="Trier Weihnachtsmarkt" class="newsbild"></a>
