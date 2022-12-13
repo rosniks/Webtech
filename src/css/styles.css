@@ -172,6 +172,7 @@ main p {
 
 .table {
     top: 0;
+    
     width: 100%;
     min-width: 65rem;
 }
@@ -233,11 +234,9 @@ p.schlagwort, p.datum {
     color: grey;
 }
 
-
 p.beschreibung {
     padding: 1rem 0rem;
 }
-
 
 p.kUebersicht {
     padding: 2rem 0rem 0rem 0rem;
