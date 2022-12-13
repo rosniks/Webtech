@@ -172,13 +172,14 @@ main p {
 
 .table {
     top: 0;
-    
     width: 100%;
     min-width: 65rem;
+    border-collapse: collapse;
+    text-align: left;
 }
 
 .vDate {
-    width: 12.5rem;
+    width: 15rem;
 }
 
 .vName {
@@ -187,7 +188,6 @@ main p {
 
 tr.veranstaltung:hover {
     background-color: #47b87a80;
-    /*background-color: rgba(68, 4, 20, 0.523);*/
     cursor: pointer;
 }
 
@@ -195,18 +195,20 @@ th {
     height: 3rem;
     font-size: 1.25rem;
     background-color: #47B879;
-    /*background-color: rgba(107, 25, 46, 0.856);*/
+    text-align: center;
 }
 
 td {
     height: 2.5rem;
     border-bottom: 1px solid rgb(0, 0, 0);
-    text-align: left;
     font-size: 1rem;
 }
 
 td a {
     color: black;
+    text-decoration: none;
+    display: flex;
+    height: 100%;
 }
 
 
