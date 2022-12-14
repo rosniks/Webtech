@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    /*---Moeglichst barierefreie Schriftarten, NICHT ABAENDERN!---*/
+    font-family: Verdana, Helvetica, Arial, Tahoma, 'Times new Roman'; 
 }
 
 body {
