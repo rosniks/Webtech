@@ -156,7 +156,7 @@ main p {
     padding: 1rem;
     border-radius: 1rem;
     width: 80%;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .veranstaltung {
@@ -182,7 +182,7 @@ main p {
 }
 
 .vDate {
-    width: 15rem;
+    width: 17.5rem;
 }
 
 .vName {
@@ -196,7 +196,7 @@ tr.veranstaltung:hover {
 
 th {
     height: 3rem;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     background-color: #47B879;
     text-align: center;
 }
