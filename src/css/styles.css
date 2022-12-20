@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    /*---Moeglichst barierefreie Schriftarten, NICHT ABAENDERN!---*/
+    font-family: Verdana, Helvetica, Arial, Tahoma, 'Times new Roman'; 
 }
 
 body {
@@ -112,6 +113,7 @@ main p {
     height: 100%;
     width: 100%;
     max-width: 700px;
+    margin-bottom: 4rem;
 }
 
 .news-feld a {
@@ -132,7 +134,7 @@ main p {
 
 .news-feld h1 {
     text-align: center;
-    margin-bottom: 5%;
+    padding-bottom: 0 ;
 }
 
 .news-feld p a {
@@ -140,6 +142,7 @@ main p {
 }
 
 .newsbild {
+    margin-bottom: -2rem;
     max-width: 90%;
     height: auto;
 }
@@ -153,7 +156,7 @@ main p {
     padding: 1rem;
     border-radius: 1rem;
     width: 80%;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .veranstaltung {
@@ -174,10 +177,12 @@ main p {
     top: 0;
     width: 100%;
     min-width: 65rem;
+    border-collapse: collapse;
+    text-align: left;
 }
 
 .vDate {
-    width: 12.5rem;
+    width: 17.5rem;
 }
 
 .vName {
@@ -186,26 +191,27 @@ main p {
 
 tr.veranstaltung:hover {
     background-color: #47b87a80;
-    /*background-color: rgba(68, 4, 20, 0.523);*/
     cursor: pointer;
 }
 
 th {
     height: 3rem;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     background-color: #47B879;
-    /*background-color: rgba(107, 25, 46, 0.856);*/
+    text-align: center;
 }
 
 td {
     height: 2.5rem;
     border-bottom: 1px solid rgb(0, 0, 0);
-    text-align: left;
     font-size: 1rem;
 }
 
 td a {
     color: black;
+    text-decoration: none;
+    display: flex;
+    height: 100%;
 }
 
 
@@ -233,11 +239,9 @@ p.schlagwort, p.datum {
     color: grey;
 }
 
-
 p.beschreibung {
     padding: 1rem 0rem;
 }
-
 
 p.kUebersicht {
     padding: 2rem 0rem 0rem 0rem;
