@@ -5,9 +5,10 @@ Aufteilung der Bearbeitung:
 Lara Biewers
 - aktuelle Veranstaltungen / Muster
 - aktuelle Kurse / Muster
-+ inner-NavBar
+- interne Suche
++ navBar Zusatz für Veranstaltungen
 + table-SearchEngine
-+ table-onClick
++ inner-SearchEngine
 
 Niklas Rose
 - Startseite
