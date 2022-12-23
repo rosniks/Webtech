@@ -152,7 +152,7 @@ main p {
 
 
 #searchbar {
-    margin: 1rem 10%;
+    margin: 3rem 10% 1rem 10%;
     padding: 1rem;
     border-radius: 1rem;
     width: 80%;
@@ -252,6 +252,7 @@ p.kUebersicht {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .flex-container>div {
@@ -260,6 +261,13 @@ p.kUebersicht {
     padding: 1rem;
     text-align: center;
     border-style: groove;
+}
+
+.flex-container>button {
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-style: none;
 }
 
 
