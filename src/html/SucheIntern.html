@@ -15,7 +15,7 @@
         <!--Navigation-bar-->
         <header class="stick">
             <nav class="navbar">
-                <a class="logo" href="index.html">Logo</a>
+                <a class="logo" href="index.html">GEMEINDEZENTRUM<br>Trier-West</a>
                 <a href="#" class="sandwich-button">
                     <span class="strich"></span>
                     <span class="strich"></span>
@@ -28,7 +28,7 @@
                         <li><a href="UberUns.html">Über Uns</a></li>
                         <li><a href="#">Galerie</a></li>
                         <li><a href="Kontakte.html">Kontakt</a></li>
-                        <li><a href="SucheIntern.html">Suche</a></li>
+                        <li><a href="SucheIntern.html" class="aktuell">Suche</a></li>
                     </ul>
                 </div>
             </nav>
@@ -37,10 +37,17 @@
         <!--Main-Content-->
         <main>
 
+            <h1>Webseite des Gemeindezentrums durchsuchen</h1>
+
             <input id="searchbar" placeholder="Suchbegriff">
 
-            <button class="SearchButton">Finden</button>
-            <button class="SearchButton">Suche zurücksetzen</button>
+            <div class="flex-container">
+                <button class="SearchButton">Finden</button>
+                <!--Einfach die Seite neu laden! Ist am effizientesten.-->
+                <button class="SearchButton" onclick="window.location.href='SucheIntern.html';">Suche zurücksetzen</button>
+            </div>
+
+            <p>Bitte geben Sie einen Suchbegriff in der Suchzeile ein und klicken Sie auf 'Finden'.</p>
 
         </main>
 
