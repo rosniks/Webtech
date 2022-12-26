@@ -43,7 +43,7 @@
                 </div>
             </div>
         </div>
-        <hr id="hr_slide">
+        <hr>
         <div class="slider-button">
             <ul>
                 <li class="knopf" id="knopf1"></li>
@@ -51,7 +51,7 @@
                 <li class="knopf" id="knopf3"></li>
             </ul>
         </div>
-        <hr id="hr_slide"> 
+        <hr> 
             <div class="news">
                 <div class="news-feld">
                     <a href="#"><img src="../../img/weihnachtsmarkt.jpg" alt="Trier Weihnachtsmarkt" class="newsbild"></a>

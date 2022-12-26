@@ -77,12 +77,6 @@ main p {
     height: 1rem;
 }
 
-#hr_slide {
-    border-top: 1px solid black;
-    width: 100vw;
-    margin: 0;
-}
-
 @media (max-width: 800px) {
     .slide {
         flex-wrap: wrap;
