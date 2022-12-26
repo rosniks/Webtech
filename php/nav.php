@@ -9,7 +9,7 @@
                 <div class="navbar-links">
                     <ul>
                         <li><a href="veranstaltungen.php" class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/veranstaltungen.php' ? 'aktuell' : ''); ?>">Veranstaltungen</a></li>
-                        <li><a href="#" class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/raeume.php' ? 'aktuell' : ''); ?>">Räume</a></li>
+                        <li><a href="raeume.php" class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/raeume.php' ? 'aktuell' : ''); ?>">Räume</a></li>
                         <li><a href="uberuns.php" class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/uberuns.php' ? 'aktuell' : ''); ?>">Über Uns</a></li>
                         <li><a href="#" class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/galerie.php' ? 'aktuell' : ''); ?>">Galerie</a></li>
                         <li><a href="kontakt.php" class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/kontakt.php' ? 'aktuell' : ''); ?>">Kontakt</a></li>
