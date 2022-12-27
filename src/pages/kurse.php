@@ -40,49 +40,49 @@
                     <th>Schlagworte</th>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.php">Dienstag, ab 07.02.23</a></td>
-                    <td><a href="Kurse/Kursmuster.php">19:00 - 19:45 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Französisch für Anfänger</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Saal 3</a></td>
-                    <td><a href="Kurse/Kursmuster.php">12</a></td>
-                    <td><a href="Kurse/Kursmuster.php">60€</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Sprachen, Französisch</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Dienstag, ab 07.02.23</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">19:00 - 19:45 Uhr</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Französisch für Anfänger</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Saal 3</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">12</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">60€</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Sprachen, Französisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.php">Dienstag, ab 14.02.23</a></td>
-                    <td><a href="Kurse/Kursmuster.php">18:00 - 18:45 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Luxemburgisch lernen</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Saal 3</a></td>
-                    <td><a href="Kurse/Kursmuster.php">12</a></td>
-                    <td><a href="Kurse/Kursmuster.php">60€</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Sprachen, Luxemburgisch</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Dienstag, ab 14.02.23</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">18:00 - 18:45 Uhr</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Luxemburgisch lernen</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Saal 3</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">12</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">60€</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Sprachen, Luxemburgisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.php">Samstag, ab 18.02.23</a></td>
-                    <td><a href="Kurse/Kursmuster.php">14:00 - 15:00 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Landschaftsfotografie</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Saal 3</a></td>
-                    <td><a href="Kurse/Kursmuster.php">3</a></td>
-                    <td><a href="Kurse/Kursmuster.php">15€</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Samstag, ab 18.02.23</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">14:00 - 15:00 Uhr</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Landschaftsfotografie</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Saal 3</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">3</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">15€</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.php">Montag, ab 20.02.23</a></td>
-                    <td><a href="Kurse/Kursmuster.php">19:00 - 21:00 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Facetten der römischen Küche</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Saal 2</a></td>
-                    <td><a href="Kurse/Kursmuster.php">5</a></td>
-                    <td><a href="Kurse/Kursmuster.php">150€</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Ernährung, regionale Küche, Kultur, Kochen</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Montag, ab 20.02.23</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">19:00 - 21:00 Uhr</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Facetten der römischen Küche</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Saal 2</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">5</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">150€</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Ernährung, regionale Küche, Kultur, Kochen</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.php">Mittwoch, ab 08.03.23</a></td>
-                    <td><a href="Kurse/Kursmuster.php">18:00 - 19:00 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Gymnastik-Kurs</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Saal 1</a></td>
-                    <td><a href="Kurse/Kursmuster.php">10</a></td>
-                    <td><a href="Kurse/Kursmuster.php">70€</a></td>
-                    <td><a href="Kurse/Kursmuster.php">Bewegung, Gymnastik, Sport, Gesundheit</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Mittwoch, ab 08.03.23</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">18:00 - 19:00 Uhr</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Gymnastik-Kurs</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Saal 1</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">10</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">70€</a></td>
+                    <td><a href="Kurse/Muster_Kurse.php">Bewegung, Gymnastik, Sport, Gesundheit</a></td>
                 </tr>
             </table>
         </div>
