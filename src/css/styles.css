@@ -418,7 +418,11 @@ p.sUebersicht {
 }
 
 .formular {
-    display: flex;
-    margin: 3rem 4%;
+    margin: 3rem 5%;
     width: 90%;
+}
+
+fieldset {
+    margin: 0.5rem 0rem;
+    padding: 1rem;
 }

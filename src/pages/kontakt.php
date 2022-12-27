@@ -57,51 +57,72 @@
                 <fieldset>
                     <legend>Betreff (*)</legend>
 
-                    <select name="zweck" id="zweck" style="width: 905px;">
-                        <option value="zweck1"> Organisation einer Veranstaltung </option>
-                        <option value="zweck2"> Raumbuchung </option>
-                        <option value="zweck3"> Teilnahme am Kurs </option>
-                        <option value="zweck4"> Zweck4 </option>
-                        <option value="zweck5"> Zweck5 </option>
+                    <select name="zweck" id="zweck">
+                        <option value="zweck1">Teilnahme-Anfrage zu einer Veranstaltung oder einem Kurs</option>
+                        <option value="zweck2">Raumbuchung zur Eigennutzung</option>
+                        <option value="zweck3">Rückmeldung zu einer Veranstaltung</option>
+                        <option value="zweck4">Meldung technischer Probleme</option>
                     </select>
                 </fieldset>
 
                 <fieldset>
-                    <legend>Ihr Name (*) </legend>
+                    <legend>Ihr Name (*)</legend>
 
-                    <label for="vorname">Vorname:</label>
-                    <input type="text" id="vorname" name="Vorname" size="56">
-                    <label for="nachname">Nachname:</label>
-                    <input type="text" id="nachname" name="Nachname" size="56">
+                    <div class="flex-container">
+                        <label for="anrede">Anrede:</label>
+                        <select name="anrede" id="anrede">
+                            <option value="anrede0">-/-</option>
+                            <option value="anrede1">Divers</option>
+                            <option value="anrede2">Frau</option>
+                            <option value="anrede3">Herr</option>
+                        </select>
+
+                        <label for="titel">Titel:</label>
+                        <select name="titel" id="titel">
+                            <option value="titel0">-/-</option>
+                            <option value="titel1">Prof.</option>
+                            <option value="titel2">Dr.</option>
+                            <option value="titel3">Dipl.-Ing.</option>
+                            <option value="titel4">B.A.</option>
+                            <option value="titel5">M.A.</option>
+                        </select>
+
+                        <label for="vorname">Vorname:</label>
+                        <input type="text" id="vorname" name="Vorname">
+
+                        <label for="nachname">Nachname:</label>
+                        <input type="text" id="nachname" name="Nachname">
+                    </div>
+
                 </fieldset>
 
                 <fieldset>
                     <legend>Ihre E-Mail-Adresse (*)</legend>
 
-                    <input type="email" name="email" id="email" size="147">
+                    <input type="email" name="email" id="email">
                 </fieldset>
 
                 <fieldset>
-                    <legend>Ihre Telefonnummer </legend>
+                    <legend>Ihre Telefonnummer</legend>
 
-                    <input type="text" name="telefon" id="telefon" size="147">
+                    <input type="text" name="telefon" id="telefon">
                 </fieldset>
 
                 <fieldset>
-                    <legend>Ihre Anfrage</legend>
+                    <legend>Ihre Anliegen</legend>
 
-                    <textarea name="tipp" cols="150" rows="10"></textarea>
+                    <textarea name="tipp"></textarea>
                 </fieldset>
 
                 <div>
-                    <input type="submit" name="Abschicken" value="Senden" style="width: 120px;">
-                    <input type="reset" name="Abbrechen" value="Abbrechen" style="width: 120px;">
+                    <input type="submit" name="Abschicken" value="Anfrage versenden">
+                    <input type="reset" name="Abbrechen" value="Vorgang abbrechen">
                 </div>
 
                 <p>
-                    <input type="checkbox" value="datenschutz" name="datenschutz">Ich habe die Datenschutzhinweise
-                    gelesen und
-                    stimme der Übertragung meiner Daten zu. * <br>
+                    <input type="checkbox" value="datenschutz" name="datenschutz">
+                    Ich habe die <a href="datenschutzrichtlinien.html">Datenschutzhinweise</a> gelesen und stimme der
+                    Übertragung meiner Daten zu. (*) <br>
                 </p>
 
             </form>
