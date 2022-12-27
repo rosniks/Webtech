@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     /*---Moeglichst barierefreie Schriftarten, NICHT ABAENDERN!---*/
-    font-family: Verdana, Helvetica, Arial, Tahoma, 'Times new Roman'; 
+    font-family: Verdana, Helvetica, Arial, Tahoma, 'Times new Roman';
 }
 
 body {
@@ -23,7 +23,7 @@ main h1 {
     text-align: left;
     color: #2A6B47;
 }
- 
+
 main p {
     padding: 2rem 10%;
     font-size: 1.25rem;
@@ -65,16 +65,22 @@ main p {
     margin: 0 30%
 }
 
-.slider-button ul{
+.slider-button ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-.slider-button li{
+.slider-button li {
     border: 1px solid black;
     width: 2rem;
     height: 1rem;
+}
+
+#hr_slide {
+    border-top: 1px solid black;
+    width: 100vw;
+    margin: 0;
 }
 
 @media (max-width: 800px) {
@@ -128,7 +134,7 @@ main p {
 
 .news-feld h1 {
     text-align: center;
-    padding-bottom: 0 ;
+    padding-bottom: 0;
 }
 
 .news-feld p a {
@@ -146,7 +152,7 @@ main p {
 
 
 #searchbar {
-    margin: 3rem 10% 1rem 10%;
+    margin: 1rem 10%;
     padding: 1rem;
     border-radius: 1rem;
     width: 80%;
@@ -172,15 +178,11 @@ main p {
     width: 100%;
     min-width: 65rem;
     border-collapse: collapse;
-    text-align: left;
+    vertical-align: middle;
 }
 
-.vDate {
-    width: 17.5rem;
-}
-
-.vName {
-    width: 20rem;
+tr {
+    height: 4rem;
 }
 
 tr.veranstaltung:hover {
@@ -189,14 +191,12 @@ tr.veranstaltung:hover {
 }
 
 th {
-    height: 3rem;
     font-size: 1.2rem;
     background-color: #47B879;
-    text-align: center;
+    min-width: 10%;
 }
 
 td {
-    height: 2.5rem;
     border-bottom: 1px solid rgb(0, 0, 0);
     font-size: 1rem;
 }
@@ -205,19 +205,29 @@ td a {
     color: black;
     text-decoration: none;
     display: flex;
-    height: 100%;
+    min-height: 3.5rem;
 }
 
 
 /*..........Festlegungen für Veranstaltungs- / Kursmuster..........*/
 
 
-h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, .flex-container, hr {
+h1.vTitel,
+p.schlagwort,
+p.datum,
+p.beschreibung,
+p.kUebersicht,
+p.sUebersicht,
+.flex-container,
+hr {
     /* top/bottom left/right */
     margin: 1rem 7.5%;
 }
 
-p.schlagwort, p.datum, p.beschreibung, .flex-container>div {
+p.schlagwort,
+p.datum,
+p.beschreibung,
+.flex-container>div {
     font-size: 1.25rem;
 }
 
@@ -228,7 +238,8 @@ h1.vTitel {
     color: #2A6B47;
 }
 
-p.schlagwort, p.datum {
+p.schlagwort,
+p.datum {
     padding: 0rem 0rem 2rem 0rem;
     color: grey;
 }
@@ -237,7 +248,8 @@ p.beschreibung {
     padding: 1rem 0rem;
 }
 
-p.kUebersicht {
+p.kUebersicht,
+p.sUebersicht {
     padding: 2rem 0rem 0rem 0rem;
     text-transform: uppercase;
     font: bold italic 1rem/1 sans-serif;
@@ -298,12 +310,14 @@ p.kUebersicht {
     transition-duration: 0.4s;
 }
 
-.vButton, .SearchButton {
+.vButton,
+.SearchButton {
     color: white;
     text-decoration: none;
 }
 
-.vButton:hover, .SearchButton:hover {
+.vButton:hover,
+.SearchButton:hover {
     background-color: #2A6B47;
     box-shadow: 0.75rem 0.75rem 1rem rgba(0, 0, 0, 0.3);
 }
@@ -312,88 +326,88 @@ p.kUebersicht {
 /*ÜBER UNS*/
 
 
-.class_a{ 
-    margin-top: 50px; 
-  } 
-  
-  .class_a h1{ 
-    font-family: 'Allura', cursive; 
-    font-size: 52px; 
-    margin-bottom: 60px; 
-    text-align: center; 
-  } 
-  
-  .step_b {
-    display: flex; 
-    justify-content: center; 
-    width: auto; 
-    text-align: center; 
-    flex-wrap: wrap; 
-    margin-top: 60px;
-  } 
-  
-  .step_b .formating { 
-    background: #87c285; 
-    margin: 4px; 
-    margin-bottom: 50px; 
-    width: 300px; 
-    padding: 18px; 
-    line-height: 20px; 
-    color: #000000; 
-    position: relative; 
-  } 
-  
-  .step_b .formating h3{ 
-    color: #000000; 
-    font-size: 26px; 
-    margin-top: 90px; 
-  } 
-  
-  .step_b .formating p.role { 
-    color: #000000; 
-    margin: 10px 0; 
-    font-size: 13px; 
-    text-transform: uppercase; 
-  } 
-  
-  .step_b .formating .photo{ 
-    position: absolute; 
-    top: -50px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    background: #fff; 
-  } 
-  
-  .step_b .formating .photo img{
-    width: 150px; 
-    height: 150px; 
-    padding: 10px; 
-  }
+.class_a {
+    margin-top: 50px;
+}
 
-  .cont {
-    height:100vh;
-    width:100vw;
- }
- 
- .shape {
+.class_a h1 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.step_b {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.step_b .formating {
+    background: #87c285;
+    margin: 4px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 18px;
+    line-height: 20px;
+    color: #000000;
+    position: relative;
+}
+
+.step_b .formating h3 {
+    color: #000000;
+    font-size: 26px;
+    margin-top: 90px;
+}
+
+.step_b .formating p.role {
+    color: #000000;
+    margin: 10px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.step_b .formating .photo {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.step_b .formating .photo img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.cont {
+    height: 100vh;
+    width: 100vw;
+}
+
+.shape {
     background: black url(./../../img/pexels-fauxels-3184428.jpg) center top no-repeat;
-    height:70vh;
-    width:40vw;
-    background-size:cover;
-    float:right;
+    height: 70vh;
+    width: 40vw;
+    background-size: cover;
+    float: right;
     margin-top: 10px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%)
- }
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%)
+}
 
- .round {
-    border-radius: 100px; 
-    border: 1px solid rgb(43, 47, 59); 
-    box-shadow: 0 0 7px #666; 
-   }
+.round {
+    border-radius: 100px;
+    border: 1px solid rgb(43, 47, 59);
+    box-shadow: 0 0 7px #666;
+}
 
 /*.........Für Kontakte und Formular.........*/
 
@@ -422,16 +436,3 @@ p.kUebersicht {
     margin-left: auto;
     margin-right: auto;
 }
-
-/*impressum*/
-.impr {
-    min-height: 67vh;
-}
-
-.impr h2 {
-    padding: 3rem 10%;
-    text-align: left;
-    color: #050605;
-    
-}
-

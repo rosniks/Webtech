@@ -23,12 +23,14 @@
             <input id="searchbar" placeholder="Suchbegriff">
 
             <div class="flex-container">
-                <button class="SearchButton">Finden</button>
+                <button class="SearchButton" onmousedown="search_site()">Finden</button>
                 <!--Einfach die Seite neu laden! Ist am effizientesten.-->
-                <button class="SearchButton" onclick="window.location.href='SucheIntern.html';">Suche zurücksetzen</button>
+                <button class="SearchButton" onclick="window.location.href='suche.php';">Suche zurücksetzen</button>
             </div>
 
-            <p>Bitte geben Sie einen Suchbegriff in der Suchzeile ein und klicken Sie auf 'Finden'.</p>
+            <p id="infotext" class="sUebersicht">Bitte geben Sie einen Suchbegriff in der Suchzeile ein und klicken Sie auf 'Finden'.</p>
+            
+            <hr>
 
         </main>
 
