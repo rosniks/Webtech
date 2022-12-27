@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="de">
+<!DOCTYPE php>
+<php lang="de">
 
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,39 +37,39 @@
                         <th>Schlagworte</th>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.html">31.01.2022</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.html">ab 21:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.html">Silvester-Party</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.html">Saal 1</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.html">Silvester, Disco, Theke</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">31.01.2022</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">ab 21:00 Uhr</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">Silvester-Party</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">Saal 1</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">Silvester, Disco, Theke</a></td>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.html">01.02.2023</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.html">ab 17:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.html">Neujahres-Konzert</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.html">Saal 2</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.html">Musikverein, Theke, Konzert</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">01.02.2023</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">ab 17:00 Uhr</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">Neujahres-Konzert</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">Saal 2</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">Musikverein, Theke, Konzert</a></td>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.html">08.01.2023</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.html">ab 15:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.html">Sonntags-Café</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.html">Saal 1</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.html">Altentag, Café, Kuchen, Musikverein</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">08.01.2023</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">ab 15:00 Uhr</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">Sonntags-Café</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">Saal 1</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">Altentag, Café, Kuchen, Musikverein</a></td>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.html">20.02.2023</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.html">19:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.html">Heimatkino - Der gestiefelte Kater</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.html">Saal 3</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.html">Kino, FSK 6 | Spielzeit 103 Minuten </a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">20.02.2023</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">19:00 Uhr</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">Heimatkino - Der gestiefelte Kater</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">Saal 3</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">Kino, FSK 6 | Spielzeit 103 Minuten </a></td>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.html">12.02.2023</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.html">ab 15:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.html">Sonntags-Café</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.html">Saal 1</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.html">Altentag, Café, Kuchen, Musikverein</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">12.02.2023</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">ab 15:00 Uhr</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">Sonntags-Café</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">Saal 1</a></td>
+                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">Altentag, Café, Kuchen, Musikverein</a></td>
                     </tr>
                 </table>
             </div>
@@ -81,4 +81,4 @@
 
     </body>
 
-</html>
+</php>

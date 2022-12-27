@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="de">
+<!DOCTYPE php>
+<php lang="de">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,49 +40,49 @@
                     <th>Schlagworte</th>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.html">Dienstag, ab 07.02.23</a></td>
-                    <td><a href="Kurse/Kursmuster.html">19:00 - 19:45 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Französisch für Anfänger</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Saal 3</a></td>
-                    <td><a href="Kurse/Kursmuster.html">12</a></td>
-                    <td><a href="Kurse/Kursmuster.html">60€</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Sprachen, Französisch</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Dienstag, ab 07.02.23</a></td>
+                    <td><a href="Kurse/Kursmuster.php">19:00 - 19:45 Uhr</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Französisch für Anfänger</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Saal 3</a></td>
+                    <td><a href="Kurse/Kursmuster.php">12</a></td>
+                    <td><a href="Kurse/Kursmuster.php">60€</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Sprachen, Französisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.html">Dienstag, ab 14.02.23</a></td>
-                    <td><a href="Kurse/Kursmuster.html">18:00 - 18:45 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Luxemburgisch lernen</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Saal 3</a></td>
-                    <td><a href="Kurse/Kursmuster.html">12</a></td>
-                    <td><a href="Kurse/Kursmuster.html">60€</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Sprachen, Luxemburgisch</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Dienstag, ab 14.02.23</a></td>
+                    <td><a href="Kurse/Kursmuster.php">18:00 - 18:45 Uhr</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Luxemburgisch lernen</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Saal 3</a></td>
+                    <td><a href="Kurse/Kursmuster.php">12</a></td>
+                    <td><a href="Kurse/Kursmuster.php">60€</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Sprachen, Luxemburgisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.html">Samstag, ab 18.02.23</a></td>
-                    <td><a href="Kurse/Kursmuster.html">14:00 - 15:00 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Landschaftsfotografie</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Saal 3</a></td>
-                    <td><a href="Kurse/Kursmuster.html">3</a></td>
-                    <td><a href="Kurse/Kursmuster.html">15€</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Samstag, ab 18.02.23</a></td>
+                    <td><a href="Kurse/Kursmuster.php">14:00 - 15:00 Uhr</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Landschaftsfotografie</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Saal 3</a></td>
+                    <td><a href="Kurse/Kursmuster.php">3</a></td>
+                    <td><a href="Kurse/Kursmuster.php">15€</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.html">Montag, ab 20.02.23</a></td>
-                    <td><a href="Kurse/Kursmuster.html">19:00 - 21:00 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Facetten der römischen Küche</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Saal 2</a></td>
-                    <td><a href="Kurse/Kursmuster.html">5</a></td>
-                    <td><a href="Kurse/Kursmuster.html">150€</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Ernährung, regionale Küche, Kultur, Kochen</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Montag, ab 20.02.23</a></td>
+                    <td><a href="Kurse/Kursmuster.php">19:00 - 21:00 Uhr</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Facetten der römischen Küche</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Saal 2</a></td>
+                    <td><a href="Kurse/Kursmuster.php">5</a></td>
+                    <td><a href="Kurse/Kursmuster.php">150€</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Ernährung, regionale Küche, Kultur, Kochen</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Kurse/Kursmuster.html">Mittwoch, ab 08.03.23</a></td>
-                    <td><a href="Kurse/Kursmuster.html">18:00 - 19:00 Uhr</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Gymnastik-Kurs</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Saal 1</a></td>
-                    <td><a href="Kurse/Kursmuster.html">10</a></td>
-                    <td><a href="Kurse/Kursmuster.html">70€</a></td>
-                    <td><a href="Kurse/Kursmuster.html">Bewegung, Gymnastik, Sport, Gesundheit</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Mittwoch, ab 08.03.23</a></td>
+                    <td><a href="Kurse/Kursmuster.php">18:00 - 19:00 Uhr</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Gymnastik-Kurs</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Saal 1</a></td>
+                    <td><a href="Kurse/Kursmuster.php">10</a></td>
+                    <td><a href="Kurse/Kursmuster.php">70€</a></td>
+                    <td><a href="Kurse/Kursmuster.php">Bewegung, Gymnastik, Sport, Gesundheit</a></td>
                 </tr>
             </table>
         </div>
@@ -94,4 +94,4 @@
 
 </body>
 
-</html>
+</php>
