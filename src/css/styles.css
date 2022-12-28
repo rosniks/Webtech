@@ -326,6 +326,23 @@ p.sUebersicht {
 }
 
 
+/*..........Räume..........*/
+
+.container-raumbeschreibung {
+    min-height: 25rem;
+}
+
+.raumbild {
+    margin-left: 7.5vw;
+    margin-right: 1rem;
+    height: 15rem;
+    float: left;
+
+}
+
+
+
+
 /*ÜBER UNS*/
 
 
