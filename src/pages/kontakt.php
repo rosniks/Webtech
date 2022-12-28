@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/nav-bar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../js/nav-bar.js" defer></script>
+    <script src="../js/kontaktformular.js" defer></script>
     <title>Kontakte</title>
 </head>
 
@@ -111,7 +112,7 @@
                 <fieldset>
                     <legend>Ihre Anliegen</legend>
 
-                    <textarea name="tipp"></textarea>
+                    <textarea name="anliegen" id="anliegen"></textarea>
                 </fieldset>
 
                 <div>

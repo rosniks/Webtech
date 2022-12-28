@@ -16,10 +16,6 @@
                         class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/veranstaltungen.php' ? 'aktuell' : ''); ?>">Veranstaltungen</a>
                 </li>
                 <li>
-                    <a href="kurse.php"
-                        class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/kurse.php' ? 'aktuell' : ''); ?>">Kurse</a>
-                </li>
-                <li>
                     <a href="raeume.php"
                         class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/raeume.php' ? 'aktuell' : ''); ?>">Räume</a>
                 </li>
