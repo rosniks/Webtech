@@ -32,10 +32,6 @@
                     <a href="kontakt.php"
                         class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/kontakt.php' ? 'aktuell' : ''); ?>">Kontakt</a>
                 </li>
-                <li>
-                    <a href="suche.php"
-                        class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/suche.php' ? 'aktuell' : ''); ?>">Suche</a>
-                </li>
             </ul>
 
             <?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/veranstaltungen.php' ? '<ul>

@@ -130,6 +130,7 @@ main p, .map {
     text-align: left;
     max-width: 60em;
     padding: 0;
+    padding-right: 10px;
 }
 
 .news-feld h1 {

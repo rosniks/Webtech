@@ -10,7 +10,7 @@
         </p>
     </div>
     <div class="col2">
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutzrichtlinien.html">Datenschutzrichtlinien</a>
+        <a href="impressum.php">Impressum</a>
+        <a href="datenschutzrichtlinien.php">Datenschutzrichtlinien</a>
     </div>
 </footer>
