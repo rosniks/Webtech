@@ -9,6 +9,11 @@
         <link rel="stylesheet" type="text/css" href="./../css/styles.css">
         <script src="../js/nav-bar.js" defer></script>
         <title>Über uns</title>
+        <style>
+            h2 {
+             padding-left: 20px; 
+            }
+        </style>
     </head>
 
     <body>
