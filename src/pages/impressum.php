@@ -11,7 +11,7 @@
         <title>Über uns</title>
         <style>
             h2 {
-             margin-bottom: -80px; 
+             padding-left: 20px; 
             }
         </style>
     </head>
