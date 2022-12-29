@@ -3,22 +3,22 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/styles.css">
-    <link rel="stylesheet" href="../../css/nav-bar.css">
-    <link rel="stylesheet" href="../../css/footer.css">
-    <script src="../../js/nav-bar.js" defer></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/nav-bar.js" defer></script>
     <title>Heimatkino</title>
 </head>
 
 <body>
 
     <!--Navigation-bar-->
-    <?php include '../../../php/nav.php'; ?>
+    <?php include '../../php/nav.php'; ?>
 
     <!--Main-Content-->
     <main>
 
-        <button class="vButton" onclick="window.location.href='../veranstaltungen.php';">
+        <button class="vButton" onclick="window.location.href='veranstaltungen.php';">
             Zurück zur Veranstaltungs-Übersicht
         </button>
 
@@ -51,7 +51,7 @@
             Wolf immer einen Schritt voraus zu sein.
         </p>
 
-        <button class="vButton" onclick="window.location.href='../kontakt.php';">
+        <button class="vButton" onclick="window.location.href='kontakt.php';">
             Weiter zur Kontaktseite mit Formular
         </button>
 
@@ -59,7 +59,7 @@
 
 
     <!--Footer-->
-    <?php include '../../../php/footer.php'; ?>
+    <?php include '../../php/footer.php'; ?>
 
 </body>
 

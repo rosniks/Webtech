@@ -37,39 +37,39 @@
                         <th>Schlagworte</th>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">31.01.2022</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">ab 21:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">Silvester-Party</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">Saal 1</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSilvesterParty.php">Silvester, Disco, Theke</a></td>
+                        <td><a href="VeranstaltungSilvesterParty.php">31.01.2022</a></td>
+                        <td><a href="VeranstaltungSilvesterParty.php">ab 21:00 Uhr</a></td>
+                        <td><a href="VeranstaltungSilvesterParty.php">Silvester-Party</a></td>
+                        <td><a href="VeranstaltungSilvesterParty.php">Saal 1</a></td>
+                        <td><a href="VeranstaltungSilvesterParty.php">Silvester, Disco, Theke</a></td>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">01.02.2023</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">ab 17:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">Neujahres-Konzert</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">Saal 2</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungNeujahresKonzert.php">Musikverein, Theke, Konzert</a></td>
+                        <td><a href="VeranstaltungNeujahresKonzert.php">01.02.2023</a></td>
+                        <td><a href="VeranstaltungNeujahresKonzert.php">ab 17:00 Uhr</a></td>
+                        <td><a href="VeranstaltungNeujahresKonzert.php">Neujahres-Konzert</a></td>
+                        <td><a href="VeranstaltungNeujahresKonzert.php">Saal 2</a></td>
+                        <td><a href="VeranstaltungNeujahresKonzert.php">Musikverein, Theke, Konzert</a></td>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">08.01.2023</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">ab 15:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">Sonntags-Café</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">Saal 1</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeA.php">Altentag, Café, Kuchen, Musikverein</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeA.php">08.01.2023</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeA.php">ab 15:00 Uhr</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeA.php">Sonntags-Café</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeA.php">Saal 1</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeA.php">Altentag, Café, Kuchen, Musikverein</a></td>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">20.02.2023</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">19:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">Heimatkino - Der gestiefelte Kater</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">Saal 3</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungHeimatkino.php">Kino, FSK 6 | Spielzeit 103 Minuten </a></td>
+                        <td><a href="VeranstaltungHeimatkino.php">20.02.2023</a></td>
+                        <td><a href="VeranstaltungHeimatkino.php">19:00 Uhr</a></td>
+                        <td><a href="VeranstaltungHeimatkino.php">Heimatkino - Der gestiefelte Kater</a></td>
+                        <td><a href="VeranstaltungHeimatkino.php">Saal 3</a></td>
+                        <td><a href="VeranstaltungHeimatkino.php">Kino, FSK 6 | Spielzeit 103 Minuten </a></td>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">12.02.2023</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">ab 15:00 Uhr</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">Sonntags-Café</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">Saal 1</a></td>
-                        <td><a href="Veranstaltungen/VeranstaltungSonntagsCafeB.php">Altentag, Café, Kuchen, Musikverein</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeB.php">12.02.2023</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeB.php">ab 15:00 Uhr</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeB.php">Sonntags-Café</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeB.php">Saal 1</a></td>
+                        <td><a href="VeranstaltungSonntagsCafeB.php">Altentag, Café, Kuchen, Musikverein</a></td>
                     </tr>
                 </table>
             </div>
