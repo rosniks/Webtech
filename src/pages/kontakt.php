@@ -53,7 +53,7 @@
 
         <div class="formular">
 
-            <form>
+            <form name="kontaktForm" onsubmit="return validateForm()">
 
                 <fieldset>
                     <legend>Betreff (*)</legend>
@@ -89,10 +89,10 @@
                     </select>
 
                     <label for="vorname">Vorname:</label>
-                    <input type="text" id="vorname" name="Vorname">
+                    <input type="text" id="vorname" name="Vorname" required>
 
                     <label for="nachname">Nachname:</label>
-                    <input type="text" id="nachname" name="Nachname">
+                    <input type="text" id="nachname" name="Nachname" required>
 
 
                 </fieldset>
@@ -100,7 +100,7 @@
                 <fieldset>
                     <legend>Ihre E-Mail-Adresse (*)</legend>
 
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                 </fieldset>
 
                 <fieldset>
@@ -121,7 +121,7 @@
                 </div>
 
                 <p>
-                    <input type="checkbox" value="datenschutz" name="datenschutz">
+                    <input type="checkbox" value="datenschutz" name="datenschutz" required>
                     Ich habe die <a href="datenschutzrichtlinien.html">Datenschutzhinweise</a> gelesen und stimme der
                     Übertragung meiner Daten zu. (*) <br>
                 </p>
