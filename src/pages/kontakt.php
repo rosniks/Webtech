@@ -44,8 +44,8 @@
         <h1>Kontaktformular</h1>
 
         <p>
-            Irgendwelche Information über das Kontaktformular, z.B. Beschreibung des Formulars, Verwendungszwecke,
-            Information über Datenverarbeitungszeit.
+            Mit Hilfe dieses Formulars können Sie uns jegliches Anliegen schnell und einfach nahebringen. <br> Falls Sie eine Räumlichkeit von uns
+            für eigene Zwecke buchen möchten finden Sie <a href="raeume.php">hier</a> eine entsprechende Auflistung.
             <br><br>
             Mit (*) gekennzeichnete Angaben sind Pflicht-Angaben. Diese benötigen wir um Ihre Anfrage beantworten
             können. <br>
@@ -53,16 +53,16 @@
 
         <div class="formular">
 
-            <form name="kontaktForm" onsubmit="return validateForm()">
+            <form id="kontaktForm" name="kontaktForm" oninput="check_form()">
 
                 <fieldset>
                     <legend>Betreff (*)</legend>
 
-                    <select name="zweck" id="zweck">
-                        <option value="zweck1">Teilnahme-Anfrage zu einer Veranstaltung oder einem Kurs</option>
-                        <option value="zweck2">Raumbuchung zur Eigennutzung</option>
-                        <option value="zweck3">Rückmeldung zu einer Veranstaltung</option>
-                        <option value="zweck4">Meldung technischer Probleme</option>
+                    <select id="zweck" name="zweck">
+                        <option value="zweck1">1. Teilnahme-Anfrage zu einer Veranstaltung oder einem Kurs</option>
+                        <option value="zweck2">2. Raumbuchung zur Eigennutzung</option>
+                        <option value="zweck3">3. Rückmeldung zu einer Veranstaltung</option>
+                        <option value="zweck4">4. Meldung technischer Probleme</option>
                     </select>
                 </fieldset>
 
@@ -71,7 +71,7 @@
 
 
                     <label for="anrede">Anrede:</label>
-                    <select name="anrede" id="anrede">
+                    <select id="anrede" name="anrede">
                         <option value="anrede0">-/-</option>
                         <option value="anrede1">Divers</option>
                         <option value="anrede2">Frau</option>
@@ -79,7 +79,7 @@
                     </select>
 
                     <label for="titel">Titel:</label>
-                    <select name="titel" id="titel">
+                    <select id="titel" name="titel">
                         <option value="titel0">-/-</option>
                         <option value="titel1">Prof.</option>
                         <option value="titel2">Dr.</option>
@@ -89,30 +89,32 @@
                     </select>
 
                     <label for="vorname">Vorname:</label>
-                    <input type="text" id="vorname" name="Vorname" required>
+                    <input type="text" id="vorname" name="Vorname" placeholder="Alex" maxlength="100" required>
 
                     <label for="nachname">Nachname:</label>
-                    <input type="text" id="nachname" name="Nachname" required>
-
+                    <input type="text" id="nachname" name="Nachname" placeholder="Schneider" maxlength="100" required>
 
                 </fieldset>
 
                 <fieldset>
                     <legend>Ihre E-Mail-Adresse (*)</legend>
 
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" id="email" name="email" maxlength="150" required>
+                
                 </fieldset>
 
                 <fieldset>
                     <legend>Ihre Telefonnummer</legend>
 
-                    <input type="text" name="telefon" id="telefon">
+                    <input type="text" id="telefon" name="telefon" maxlength="100">
+
                 </fieldset>
 
                 <fieldset>
-                    <legend>Ihre Anliegen</legend>
+                    <legend>Ihre Anliegen (*)</legend>
 
-                    <textarea name="anliegen" id="anliegen"></textarea>
+                    <textarea id="anliegen" name="anliegen" required></textarea>
+
                 </fieldset>
 
                 <div>
@@ -122,9 +124,11 @@
 
                 <p>
                     <input type="checkbox" value="datenschutz" name="datenschutz" required>
-                    Ich habe die <a href="datenschutzrichtlinien.html">Datenschutzhinweise</a> gelesen und stimme der
+                    Ich habe die <a href="datenschutzrichtlinien.php">Datenschutzhinweise</a> gelesen und stimme der
                     Übertragung meiner Daten zu. (*) <br>
                 </p>
+
+                <div class="kommentar"></div>
 
             </form>
 
