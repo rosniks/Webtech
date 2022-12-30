@@ -328,6 +328,17 @@ p.sUebersicht {
 
 /*..........Räume..........*/
 
+.raumplan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.raumplanEl img {
+    max-height: 60vh;
+    width: auto;
+}
+
 .container-raumbeschreibung {
     min-height: 25rem;
 }
