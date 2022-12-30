@@ -17,6 +17,12 @@ form.addEventListener('submit', (e) => {
         document.getElementById("error").innerHTML = "Bitte füllen Sie mindestens die Pflichtfelder (*) aus!";
     }
 
+    if (document.getElementById("anrede").value === "anrede0") {
+        e.preventDefault();
+        err.style.color = "red";
+        document.getElementById("error").innerHTML = "Bitte wählen Sie eine für Sie passende Anrede unter \"Ihr Name\" aus!";
+    }
+
     if (check_vorname() === false) {
         e.preventDefault();
         err.style.color = "red";
@@ -47,7 +53,7 @@ form.addEventListener('submit', (e) => {
         document.getElementById("error").innerHTML = "Bitte geben Sie einen gültigen Text ein! Erlaubt sind die folgenden Zeichen: A-Z a-z 0-9 , . ! ? - +";
     }
 
-    if ((check_vorname() === true) && (check_nachname() === true) && (check_mail() === true) && (check_telNum() === true) && (check_anliegen() === true)) {
+    if ((document.getElementById("anrede").value != "anrede0") && (check_vorname() === true) && (check_nachname() === true) && (check_mail() === true) && (check_telNum() === true) && (check_anliegen() === true)) {
         window.alert("Ihre Daten wurden erfolgreich übermittelt!");
     }
 
@@ -58,7 +64,7 @@ form.addEventListener('submit', (e) => {
 
 function check_vorname() {
 
-    var validate = /^[A-Z]{1}[a-z A-Z äöüÄÖÜ \s -]+$/;
+    var validate = /^[a-z A-Z äöüÄÖÜ \s -]+$/;
 
     if (vorname.value.match(validate)) {
         return true;
@@ -70,7 +76,7 @@ function check_vorname() {
 
 function check_nachname() {
 
-    var validate = /^[A-Z]{1}[a-z A-Z äöüÄÖÜ \s -]+$/;
+    var validate = /^[a-z A-Z äöüÄÖÜ \s -]+$/;
 
     if (nachname.value.match(validate)) {
         return true;
@@ -94,7 +100,7 @@ function check_mail() {
 
 function check_telNum() {
 
-    var validate = /^[0-9 + / \s]+$/;
+    var validate = /^[0-9 + / - \s]+$/;
 
     if (telefon.value.match(validate)) {
         return true;
@@ -121,7 +127,7 @@ function check_anliegen() {
 
 function add_raume() {
     if (document.getElementById("zweck").value === "zweck2") {
-        document.getElementById("fieldsetRaum").innerHTML = "<fieldset> <legend>Raumauswahl(*)</legend > <select id=\"raumwahl\" name=\"raumwahl\"> <option value=\"raum0\">-/-</option> <option value=\"raum1\">Gemeinschaftsraum</option> <option value=\"raum2\">Saal 1</option> <option value=\"raum3\">Saal 2</option> <option value=\"raum4\">Saal 3</option> <option value=\"raum4\">Z1</option> <option value=\"raum4\">Z2</option> <option value=\"raum4\">Z3</option> <option value=\"raum4\">Küche</option> <option value=\"raum4\">Ich möchte mehrere Räume buchen!</option> </select> </fieldset >";
+        document.getElementById("fieldsetRaum").innerHTML = "<fieldset> <legend>Raumauswahl (*)</legend > <select id=\"raumwahl\" name=\"raumwahl\"> <option value=\"raum0\">-/-</option> <option value=\"raum1\">Gemeinschaftsraum</option> <option value=\"raum2\">Saal 1</option> <option value=\"raum3\">Saal 2</option> <option value=\"raum4\">Saal 3</option> <option value=\"raum4\">Z1</option> <option value=\"raum4\">Z2</option> <option value=\"raum4\">Z3</option> <option value=\"raum4\">Küche</option> <option value=\"raum4\">Ich möchte mehrere Räume buchen!</option> </select> </fieldset >";
     } else {
         document.getElementById("fieldsetRaum").innerHTML = "";
     }
