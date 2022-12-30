@@ -44,7 +44,8 @@
         <h1>Kontaktformular</h1>
 
         <p>
-            Mit Hilfe dieses Formulars können Sie uns jegliches Anliegen schnell und einfach nahebringen. <br> Falls Sie eine Räumlichkeit von uns
+            Mit Hilfe dieses Formulars können Sie uns jegliches Anliegen schnell und einfach nahebringen. <br> Falls Sie
+            eine Räumlichkeit von uns
             für eigene Zwecke buchen möchten finden Sie <a href="raeume.php">hier</a> eine entsprechende Auflistung.
             <br><br>
             Mit (*) gekennzeichnete Angaben sind Pflicht-Angaben. Diese benötigen wir um Ihre Anfrage beantworten
@@ -53,14 +54,14 @@
 
         <div class="formular">
 
-            <form id="kontaktForm" name="kontaktForm" oninput="check_form()">
+            <form id="kontaktForm" name="kontaktForm" action="kontakt.php" method="GET">
 
                 <fieldset>
                     <legend>Betreff (*)</legend>
 
                     <select id="zweck" name="zweck">
                         <option value="zweck1">1. Teilnahme-Anfrage zu einer Veranstaltung oder einem Kurs</option>
-                        <option value="zweck2">2. Raumbuchung zur Eigennutzung</option>
+                        <option value="zweck2" onselect="add_raume()">2. Raumbuchung zur Eigennutzung</option>
                         <option value="zweck3">3. Rückmeldung zu einer Veranstaltung</option>
                         <option value="zweck4">4. Meldung technischer Probleme</option>
                     </select>
@@ -89,38 +90,35 @@
                     </select>
 
                     <label for="vorname">Vorname:</label>
-                    <input type="text" id="vorname" name="Vorname" placeholder="Alex" maxlength="100" required>
+                    <input type="text" id="vorname" name="Vorname" placeholder="Alex" minlength="2" maxlength="100" required>
 
                     <label for="nachname">Nachname:</label>
-                    <input type="text" id="nachname" name="Nachname" placeholder="Schneider" maxlength="100" required>
+                    <input type="text" id="nachname" name="Nachname" placeholder="Schneider" minlength="2" maxlength="100" required>
 
                 </fieldset>
 
                 <fieldset>
                     <legend>Ihre E-Mail-Adresse (*)</legend>
 
-                    <input type="email" id="email" name="email" maxlength="150" required>
-                
+                    <input type="email" id="email" name="email" placeholder="AlexSchneider@web.de" size="50" maxlength="150" required>
+
                 </fieldset>
 
                 <fieldset>
                     <legend>Ihre Telefonnummer</legend>
 
-                    <input type="text" id="telefon" name="telefon" maxlength="100">
+                    <input type="text" id="telefon" name="telefon" placeholder="12345 456789" size="50" maxlength="100">
 
                 </fieldset>
+
+                <div id="fieldsetRaum"></div>
 
                 <fieldset>
                     <legend>Ihre Anliegen (*)</legend>
 
-                    <textarea id="anliegen" name="anliegen" required></textarea>
+                    <textarea id="anliegen" name="anliegen" rows="10" minlength="10" maxlength="1000"  required></textarea>
 
                 </fieldset>
-
-                <div>
-                    <input type="submit" name="Abschicken" value="Anfrage versenden">
-                    <input type="reset" name="Abbrechen" value="Vorgang abbrechen">
-                </div>
 
                 <p>
                     <input type="checkbox" value="datenschutz" name="datenschutz" required>
@@ -128,7 +126,12 @@
                     Übertragung meiner Daten zu. (*) <br>
                 </p>
 
-                <div class="kommentar"></div>
+                <p id="error">Bitte bestätigen Sie ihre Angaben mit "Anfrage versenden"!</p>
+
+                <div class="flex-container">
+                    <button class="kButton" type="submit" name="Abschicken">Anfrage versenden</button>
+                    <button class="kButton" type="reset" name="Abbrechen">Vorgang abbrechen</button>
+                </div>
 
             </form>
 
