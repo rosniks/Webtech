@@ -283,7 +283,7 @@ p.sUebersicht {
 /*..........Buttondesign Veranstaltungen / Suche..........*/
 
 
-.vButton {
+.vButton, .kButton {
     margin: 2rem 5%;
     border: none;
     border-radius: 2rem;
@@ -298,7 +298,7 @@ p.sUebersicht {
     transition-duration: 0.4s;
 }
 
-.SearchButton {
+.kButton {
     margin: 2rem 5%;
     border: none;
     border-radius: 2rem;
@@ -314,13 +314,13 @@ p.sUebersicht {
 }
 
 .vButton,
-.SearchButton {
+.kButton {
     color: white;
     text-decoration: none;
 }
 
 .vButton:hover,
-.SearchButton:hover {
+.kButton:hover {
     background-color: #2A6B47;
     box-shadow: 0.75rem 0.75rem 1rem rgba(0, 0, 0, 0.3);
 }
