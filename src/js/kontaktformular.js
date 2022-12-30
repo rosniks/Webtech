@@ -7,6 +7,8 @@ const email = document.getElementById("email");
 const telefon = document.getElementById("telefon");
 const anliegen = document.getElementById("anliegen");
 
+// dynamisches Überprüfen des Formulars
+
 form.addEventListener('submit', (e) => {
 
     if ((vorname.value === null || vorname.value == "") || (nachname.value === null || nachname.value == "") || (email.value === null || email.value == "") || (anliegen.value === null || anliegen.value == "")) {
@@ -52,6 +54,7 @@ form.addEventListener('submit', (e) => {
 })
 
 
+// Festlegung der regulären Ausdrücke für die Überprüfung
 
 function check_vorname() {
 
@@ -114,13 +117,12 @@ function check_anliegen() {
 }
 
 
-/*
 // Dynamisches erscheinen der Raumbuchung
 
-var zweck = document.getElementById("zweck");
-
 function add_raume() {
-    document.getElementById("fieldsetRaum").innerHTML = "< fieldset > < legend > Raumauswahl(*)</legend > <select id=\"raumwahl\" name=\"raumwahl\"> <option value=\"raum1\">Gemeinschaftsraum</option> <option value=\"raum2\">Saal 1</option> <option value=\"raum3\">Saal 2</option> <option value=\"raum4\">Saal 3</option> <option value=\"raum4\">Z1</option> <option value=\"raum4\">Z2</option> <option value=\"raum4\">Z3</option> <option value=\"raum4\">Küche</option> <option value=\"raum4\">Ich möchte mehrere Räume buchen!</option> </select> </fieldset >";
-
+    if (document.getElementById("zweck").value === "zweck2") {
+        document.getElementById("fieldsetRaum").innerHTML = "<fieldset> <legend>Raumauswahl(*)</legend > <select id=\"raumwahl\" name=\"raumwahl\"> <option value=\"raum0\">-/-</option> <option value=\"raum1\">Gemeinschaftsraum</option> <option value=\"raum2\">Saal 1</option> <option value=\"raum3\">Saal 2</option> <option value=\"raum4\">Saal 3</option> <option value=\"raum4\">Z1</option> <option value=\"raum4\">Z2</option> <option value=\"raum4\">Z3</option> <option value=\"raum4\">Küche</option> <option value=\"raum4\">Ich möchte mehrere Räume buchen!</option> </select> </fieldset >";
+    } else {
+        document.getElementById("fieldsetRaum").innerHTML = "";
+    }
 }
-*/

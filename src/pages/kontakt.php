@@ -59,9 +59,9 @@
                 <fieldset>
                     <legend>Betreff (*)</legend>
 
-                    <select id="zweck" name="zweck">
+                    <select id="zweck" name="zweck" onclick="add_raume()">
                         <option value="zweck1">1. Teilnahme-Anfrage zu einer Veranstaltung oder einem Kurs</option>
-                        <option value="zweck2" onselect="add_raume()">2. Raumbuchung zur Eigennutzung</option>
+                        <option value="zweck2">2. Raumbuchung zur Eigennutzung</option>
                         <option value="zweck3">3. Rückmeldung zu einer Veranstaltung</option>
                         <option value="zweck4">4. Meldung technischer Probleme</option>
                     </select>
