@@ -335,7 +335,7 @@ p.sUebersicht {
 }
 
 .raumplanEl img {
-    max-height: 60vh;
+    max-height: 480px;
     width: auto;
 }
 
