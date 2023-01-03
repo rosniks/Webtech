@@ -23,13 +23,13 @@
         </button>
 
         <h1 class="vTitel">
-            Kursmuster 1
+            Kursmuster 1, Kosten
         </h1>
         <p class="schlagwort">
             Musterschlagwörter
         </p>
         <p class="datum">
-            Mustersaal
+            Mustersaal, xx Minuten pro Kurseinheit
         </p>
         <p class="beschreibung">
             Dies ist lediglich ein Muster.
@@ -39,7 +39,10 @@
             Hier seh ich definitiv einen Yoga-Kurs!
         </p>
         <p class="kUebersicht">
-            Auflistung aller Kurs-Termine
+            Auflistung aller Kurs-Termine [Anzahl: xx Termine]
+        </p>
+        <p class="dozent">
+            Dozent: xxx
         </p>
         <hr>
         <div class="flex-container">

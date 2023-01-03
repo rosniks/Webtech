@@ -40,13 +40,13 @@
                     <th>Schlagworte</th>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Muster_Kurse.php">Dienstag, ab 07.02.23</a></td>
-                    <td><a href="Muster_Kurse.php">19:00 - 19:45 Uhr</a></td>
-                    <td><a href="Muster_Kurse.php">Französisch für Anfänger</a></td>
-                    <td><a href="Muster_Kurse.php">Saal 3</a></td>
-                    <td><a href="Muster_Kurse.php">12</a></td>
-                    <td><a href="Muster_Kurse.php">60€</a></td>
-                    <td><a href="Muster_Kurse.php">Sprachen, Französisch</a></td>
+                    <td><a href="KursFranzoesisch.php">Dienstag, ab 07.02.23</a></td>
+                    <td><a href="KursFranzoesisch.php">19:00 - 19:45 Uhr</a></td>
+                    <td><a href="KursFranzoesisch.php">Französisch für Anfänger</a></td>
+                    <td><a href="KursFranzoesisch.php">Saal 3</a></td>
+                    <td><a href="KursFranzoesisch.php">12</a></td>
+                    <td><a href="KursFranzoesisch.php">60€</a></td>
+                    <td><a href="KursFranzoesisch.php">Sprachen, Französisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
                     <td><a href="Muster_Kurse.php">Dienstag, ab 14.02.23</a></td>
