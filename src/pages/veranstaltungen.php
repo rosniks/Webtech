@@ -37,7 +37,7 @@
                         <th>Schlagworte</th>
                     </tr>
                     <tr class="veranstaltung">
-                        <td><a href="VeranstaltungSilvesterParty.php">31.01.2022</a></td>
+                        <td><a href="VeranstaltungSilvesterParty.php">31.12.2022</a></td>
                         <td><a href="VeranstaltungSilvesterParty.php">ab 21:00 Uhr</a></td>
                         <td><a href="VeranstaltungSilvesterParty.php">Silvester-Party</a></td>
                         <td><a href="VeranstaltungSilvesterParty.php">Saal 1</a></td>
