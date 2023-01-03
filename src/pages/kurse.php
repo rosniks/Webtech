@@ -67,22 +67,22 @@
                     <td><a href="KursFotografie.php">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Muster_Kurse.php">Montag, ab 20.02.23</a></td>
-                    <td><a href="Muster_Kurse.php">19:00 - 21:00 Uhr</a></td>
-                    <td><a href="Muster_Kurse.php">Facetten der römischen Küche</a></td>
-                    <td><a href="Muster_Kurse.php">Saal 2</a></td>
-                    <td><a href="Muster_Kurse.php">5</a></td>
-                    <td><a href="Muster_Kurse.php">150€</a></td>
-                    <td><a href="Muster_Kurse.php">Ernährung, regionale Küche, Kultur, Kochen</a></td>
+                    <td><a href="KursRoemischeKueche.php">Montag, ab 20.02.23</a></td>
+                    <td><a href="KursRoemischeKueche.php">19:00 - 21:00 Uhr</a></td>
+                    <td><a href="KursRoemischeKueche.php">Facetten der römischen Küche</a></td>
+                    <td><a href="KursRoemischeKueche.php">Saal 2, Küche</a></td>
+                    <td><a href="KursRoemischeKueche.php">5</a></td>
+                    <td><a href="KursRoemischeKueche.php">150€</a></td>
+                    <td><a href="KursRoemischeKueche.php">Ernährung, regionale Küche, Kultur, Kochen</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Muster_Kurse.php">Mittwoch, ab 08.03.23</a></td>
-                    <td><a href="Muster_Kurse.php">18:00 - 19:00 Uhr</a></td>
-                    <td><a href="Muster_Kurse.php">Gymnastik-Kurs</a></td>
-                    <td><a href="Muster_Kurse.php">Saal 1</a></td>
-                    <td><a href="Muster_Kurse.php">10</a></td>
-                    <td><a href="Muster_Kurse.php">70€</a></td>
-                    <td><a href="Muster_Kurse.php">Bewegung, Gymnastik, Sport, Gesundheit</a></td>
+                    <td><a href="KursGymnastik.php">Mittwoch, ab 08.03.23</a></td>
+                    <td><a href="KursGymnastik.php">18:00 - 19:00 Uhr</a></td>
+                    <td><a href="KursGymnastik.php">Gymnastik-Kurs</a></td>
+                    <td><a href="KursGymnastik.php">Saal 1</a></td>
+                    <td><a href="KursGymnastik.php">10</a></td>
+                    <td><a href="KursGymnastik.php">70€</a></td>
+                    <td><a href="KursGymnastik.php">Bewegung, Gymnastik, Sport, Gesundheit</a></td>
                 </tr>
             </table>
         </div>
