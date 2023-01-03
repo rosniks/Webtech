@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/nav-bar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../js/nav-bar.js" defer></script>
-    <title>Französisch für Anfänger</title>
+    <title>Luxemburgisch lernen</title>
 </head>
 
 <body>
@@ -23,20 +23,22 @@
         </button>
 
         <h1 class="vTitel">
-            Französisch für Anfänger, Kosten: 60€
+            Luxemburgisch lernen, Kosten: 60€
         </h1>
         <p class="schlagwort">
-            Sprachen, Französisch
+            Sprachen, Luxemburgisch
         </p>
         <p class="datum">
             45 Minuten pro Kurseinheit, Saal 3
         </p>
         <p class="beschreibung">
-            In diesem Kurs wird versucht, den Kursteilnehmern die französische Sprache auf unteraltsame Weise näher zu
-            bringen. Der Kursteilnehmer wird am Ende des Kurses in der Lage sein, einfache Unterhaltungen zu führen und
-            zu verstehen.
+            Dieser Kurs richtet sich sowohl an Pendler, die nach Luxembourg zu ihrem Arbeitsplatz fahren sowie an
+            Meschen, die einfach Lust haben, mehr über die Sprache und Kultur unseres Nachbarlandes zu erfahren.
+            Vermittelt werden Kenntnisse in Sprache und Schrift sowie über Sitten und Bräuche etc. in Luxembourg.<br>
+            Leichte Vorkenntnisse z.B. durch kennen underes Dialektes oder regelmäßigen Konkakt mit der
+            luxemburgischen Sprache sind von Vorteil.
             <br><br>
-            Dozentin: Manuela Neises
+            Dozentin: Nils Fröhlich
         </p>
         <p class="kUebersicht">
             Auflistung aller Kurs-Termine [Anzahl: 12 Termine]
@@ -45,63 +47,63 @@
         <div class="flex-container">
             <div>
                 Termin 1 <br>
-                07.02.2023 <br>
-                19:00 - 19:45 Uhr
+                14.02.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 2 <br>
-                14.02.2023 <br>
-                19:00 - 19:45 Uhr
+                21.02.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 3 <br>
-                21.02.2023 <br>
-                19:00 - 19:45 Uhr
+                28.02.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 4 <br>
-                28.02.2023 <br>
-                19:00 - 19:45 Uhr
+                07.03.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 5 <br>
-                07.03.2023 <br>
-                19:00 - 19:45 Uhr
+                14.03.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 6 <br>
-                14.03.2023 <br>
-                19:00 - 19:45 Uhr
+                21.03.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 7 <br>
-                21.03.2023 <br>
-                19:00 - 19:45 Uhr
+                28.03.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 8 <br>
-                28.03.2023 <br>
-                19:00 - 19:45 Uhr
+                04.04.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 9 <br>
-                04.04.2023 <br>
-                19:00 - 19:45 Uhr
+                11.04.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 10 <br>
-                11.04.2023 <br>
-                19:00 - 19:45 Uhr
+                18.04.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 11 <br>
-                18.04.2023 <br>
-                19:00 - 19:45 Uhr
+                25.04.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
             <div>
                 Termin 12 <br>
-                25.04.2023 <br>
-                19:00 - 19:45 Uhr
+                02.05.2023 <br>
+                18:00 - 18:45 Uhr
             </div>
         </div>
 

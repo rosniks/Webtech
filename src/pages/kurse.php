@@ -49,13 +49,13 @@
                     <td><a href="KursFranzoesisch.php">Sprachen, Französisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Muster_Kurse.php">Dienstag, ab 14.02.23</a></td>
-                    <td><a href="Muster_Kurse.php">18:00 - 18:45 Uhr</a></td>
-                    <td><a href="Muster_Kurse.php">Luxemburgisch lernen</a></td>
-                    <td><a href="Muster_Kurse.php">Saal 3</a></td>
-                    <td><a href="Muster_Kurse.php">12</a></td>
-                    <td><a href="Muster_Kurse.php">60€</a></td>
-                    <td><a href="Muster_Kurse.php">Sprachen, Luxemburgisch</a></td>
+                    <td><a href="KursLuxemburgisch.php">Dienstag, ab 14.02.23</a></td>
+                    <td><a href="KursLuxemburgisch.php">18:00 - 18:45 Uhr</a></td>
+                    <td><a href="KursLuxemburgisch.php">Luxemburgisch lernen</a></td>
+                    <td><a href="KursLuxemburgisch.php">Saal 3</a></td>
+                    <td><a href="KursLuxemburgisch.php">12</a></td>
+                    <td><a href="KursLuxemburgisch.php">60€</a></td>
+                    <td><a href="KursLuxemburgisch.php">Sprachen, Luxemburgisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
                     <td><a href="Muster_Kurse.php">Samstag, ab 18.02.23</a></td>

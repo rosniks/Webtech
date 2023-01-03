@@ -29,7 +29,7 @@
             Musterschlagwörter
         </p>
         <p class="datum">
-            Mustersaal, xx Minuten pro Kurseinheit
+            xx Minuten pro Kurseinheit, Mustersaal
         </p>
         <p class="beschreibung">
             Dies ist lediglich ein Muster.
@@ -37,12 +37,11 @@
             Es ist jetzt nicht besonders schön, aber hier steckt viel Arbeit drin.
             <br><br>
             Hier seh ich definitiv einen Yoga-Kurs!
+            <br><br>
+            Dozent: xxx
         </p>
         <p class="kUebersicht">
             Auflistung aller Kurs-Termine [Anzahl: xx Termine]
-        </p>
-        <p class="dozent">
-            Dozent: xxx
         </p>
         <hr>
         <div class="flex-container">

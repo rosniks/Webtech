@@ -218,7 +218,6 @@ h1.vTitel,
 p.schlagwort,
 p.datum,
 p.beschreibung,
-p.dozent,
 p.kUebersicht,
 p.sUebersicht,
 .flex-container,
@@ -230,7 +229,6 @@ hr {
 p.schlagwort,
 p.datum,
 p.beschreibung,
-p.dozent,
 .flex-container>div {
     font-size: 1.25rem;
 }
@@ -248,8 +246,7 @@ p.datum {
     color: grey;
 }
 
-p.beschreibung,
-p.dozent {
+p.beschreibung {
     padding: 1rem 0rem;
 }
 
