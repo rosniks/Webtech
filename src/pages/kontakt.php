@@ -37,7 +37,11 @@
             Samstag und Sonntag: zu Veranstaltungszeiten
         </p>
 
-        <img src="../../img/Landkarte.jpg" alt="Gemeindezentrum Trier West" class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d648.6639422961708!2d6.620159943946318!3d49.751219055685404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47957ca6f5d23081%3A0x84c4b85cb4d53ff0!2sEurener%20Str.%201%2C%2054294%20Trier!5e1!3m2!1sde!2sde!4v1672769920554!5m2!1sde!2sde"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" class="map"
+            alt="Gemeindezentrum Trier West" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
 
         <hr>
 
@@ -90,17 +94,20 @@
                     </select>
 
                     <label for="vorname">Vorname:</label>
-                    <input type="text" id="vorname" name="Vorname" placeholder="Alex" minlength="2" maxlength="100" required>
+                    <input type="text" id="vorname" name="Vorname" placeholder="Alex" minlength="2" maxlength="100"
+                        required>
 
                     <label for="nachname">Nachname:</label>
-                    <input type="text" id="nachname" name="Nachname" placeholder="Schneider" minlength="2" maxlength="100" required>
+                    <input type="text" id="nachname" name="Nachname" placeholder="Schneider" minlength="2"
+                        maxlength="100" required>
 
                 </fieldset>
 
                 <fieldset>
                     <legend>Ihre E-Mail-Adresse (*)</legend>
 
-                    <input type="email" id="email" name="email" placeholder="AlexSchneider@web.de" size="50" maxlength="150" required>
+                    <input type="email" id="email" name="email" placeholder="AlexSchneider@web.de" size="50"
+                        maxlength="150" required>
 
                 </fieldset>
 
@@ -116,7 +123,8 @@
                 <fieldset>
                     <legend>Ihre Anliegen (*)</legend>
 
-                    <textarea id="anliegen" name="anliegen" rows="10" minlength="10" maxlength="1000"  required></textarea>
+                    <textarea id="anliegen" name="anliegen" rows="10" minlength="10" maxlength="1000"
+                        required></textarea>
 
                 </fieldset>
 

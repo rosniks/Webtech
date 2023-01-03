@@ -17,7 +17,7 @@
 
     <main>
         <div class="impr">
-            <h1>Datenschutz</h1>
+            <h1><u>Datenschutz</u></h1>
             <p>
                 Die Nutzung unserer Website (Name Ihrer Domain) ist in der Regel ohne Angabe personenbezogener Daten
                 möglich. Soweit auf unserer Seite personenbezogene Daten (beispielsweise Name, Anschrift,
