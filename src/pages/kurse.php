@@ -58,13 +58,13 @@
                     <td><a href="KursLuxemburgisch.php">Sprachen, Luxemburgisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="Muster_Kurse.php">Samstag, ab 18.02.23</a></td>
-                    <td><a href="Muster_Kurse.php">14:00 - 15:00 Uhr</a></td>
-                    <td><a href="Muster_Kurse.php">Landschaftsfotografie</a></td>
-                    <td><a href="Muster_Kurse.php">Saal 3</a></td>
-                    <td><a href="Muster_Kurse.php">3</a></td>
-                    <td><a href="Muster_Kurse.php">15€</a></td>
-                    <td><a href="Muster_Kurse.php">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
+                    <td><a href="KursFotografie.php">Samstag, ab 18.02.23</a></td>
+                    <td><a href="KursFotografie.php">13:00 - 16:00 Uhr</a></td>
+                    <td><a href="KursFotografie.php">Landschaftsfotografie</a></td>
+                    <td><a href="KursFotografie.php">Saal 3</a></td>
+                    <td><a href="KursFotografie.php">3</a></td>
+                    <td><a href="KursFotografie.php">15€</a></td>
+                    <td><a href="KursFotografie.php">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
                 </tr>
                 <tr class="veranstaltung">
                     <td><a href="Muster_Kurse.php">Montag, ab 20.02.23</a></td>
