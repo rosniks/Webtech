@@ -3,41 +3,22 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/styles.css">
-    <link rel="stylesheet" href="../../css/nav-bar.css">
-    <link rel="stylesheet" href="../../css/footer.css">
-    <script src="../../js/nav-bar.js" defer></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/nav-bar.js" defer></script>
     <title>Heimatkino</title>
 </head>
 
 <body>
 
     <!--Navigation-bar-->
-    <header class="stick">
-        <nav class="navbar">
-            <a class="logo" href="../index.html">GEMEINDEZENTRUM<br>Trier-West</a>
-            <a href="#" class="sandwich-button">
-                <span class="strich"></span>
-                <span class="strich"></span>
-                <span class="strich"></span>
-            </a>
-            <div class="navbar-links">
-                <ul>
-                    <li><a class="aktuell" href="../Veranstaltungen.html">Veranstaltungen</a></li>
-                    <li><a href="#">Räume</a></li>
-                    <li><a href="../UberUns.html">Über Uns</a></li>
-                    <li><a href="#">Galerie</a></li>
-                    <li><a href="../Kontakte.html">Kontakt</a></li>
-                    <li><a href="../SucheIntern.html">Suche</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <?php include '../../php/nav.php'; ?>
 
     <!--Main-Content-->
     <main>
 
-        <button class="vButton" onclick="window.location.href='../Veranstaltungen.html';">
+        <button class="vButton" onclick="window.location.href='veranstaltungen.php';">
             Zurück zur Veranstaltungs-Übersicht
         </button>
 
@@ -70,7 +51,7 @@
             Wolf immer einen Schritt voraus zu sein.
         </p>
 
-        <button class="vButton" onclick="window.location.href='../Kontakte.html';">
+        <button class="vButton" onclick="window.location.href='kontakt.php';">
             Weiter zur Kontaktseite mit Formular
         </button>
 
@@ -78,21 +59,7 @@
 
 
     <!--Footer-->
-    <footer>
-        <div class="col1">
-            <h3>Kontakt</h3>
-            <p>
-                Gemeindezentrum Trier-West<br>
-                In dieser Straße 7<br>
-                54293 Trier<br>
-                Tel.: 06511 / 123456789<br>
-            </p>
-        </div>
-        <div class="col2">
-            <a href="impressum.html">Impressum</a>
-            <a href="datenschutzrichtlinien.html">Datenschutzrichtlinien</a>
-        </div>
-    </footer>
+    <?php include '../../php/footer.php'; ?>
 
 </body>
 
