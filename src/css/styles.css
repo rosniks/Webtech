@@ -61,23 +61,6 @@ main p,
     padding-left: 10%;
 }
 
-.slider-button {
-    width: 40%;
-    margin: 0 30%
-}
-
-.slider-button ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.slider-button li {
-    border: 1px solid black;
-    width: 2rem;
-    height: 1rem;
-}
-
 #hr_slide {
     border-top: 1px solid black;
     width: 100vw;
@@ -96,6 +79,33 @@ main p,
     .slide-beschreibung {
         width: 100vw;
     }
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    background: hsla(0, 0%, 0%, 0.511);
+    top: 50%;
+    width: auto;
+    padding: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.2s linear;
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
 }
 
 /*----News Hauptseite----*/

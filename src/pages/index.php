@@ -42,14 +42,8 @@
                     <p class="slide-text">Nette Gespräche. Tolle Menschen. Leckerer Kaffee und Kuchen.</p>
                 </div>
             </div>
-        </div>
-        <hr>
-        <div class="slider-button">
-            <ul>
-                <li class="knopf" id="knopf1"></li>
-                <li class="knopf" id="knopf2"></li>
-                <li class="knopf" id="knopf3"></li>
-            </ul>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <hr> 
             <div class="news">
