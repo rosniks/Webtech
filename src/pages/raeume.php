@@ -42,7 +42,9 @@
             </div>
         </div>
 
-        <hr>
+
+        <p class="bgdark">Falls Sie Räume buchen oder reservieren möchten können Sie das im Formular auf der <a href="kontakt.php">Kontakseite</a> machen.</p>
+
 
         <div class="container-raumbeschreibung">
             <h1 id="gmraum">Gemeinschaftsraum</h1>
@@ -53,10 +55,9 @@
 
             </p>
         </div>
-        
-        <hr>
 
-        <div class="container-raumbeschreibung">
+
+        <div class="container-raumbeschreibung bgdark">
             <h1 id="saal1">Saal 1</h1>
             <img class="raumbild" src="../../img/saal1.jpg" alt="Saal 1">
 
@@ -67,7 +68,6 @@
             </p>
         </div>
 
-        <hr>
 
         <div class="container-raumbeschreibung">
             <h1  id="saal2">Saal 2</h1>
@@ -78,9 +78,8 @@
             </p>
         </div>
 
-        <hr>
 
-        <div class="container-raumbeschreibung">
+        <div class="container-raumbeschreibung bgdark">
             <h1 id="saal3">Saal 3</h1>
             <img class="raumbild" src="../../img/saal3.jpg" alt="Saal 3">
             <p>
@@ -89,8 +88,6 @@
 
             </p>
         </div>
-
-        <hr>
 
         <div class="container-raumbeschreibung">
             <h1 id="z">Z1, Z2, Z3</h1>
@@ -102,9 +99,7 @@
             </p>
         </div>
 
-        <hr>
-
-        <div class="container-raumbeschreibung">
+        <div class="container-raumbeschreibung bgdark">
             <h1 id="kueche">Küche</h1>
             <img class="raumbild" src="../../img/kueche.jpg" alt="Küche">
             <p>
