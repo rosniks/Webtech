@@ -43,7 +43,8 @@
         </div>
 
 
-        <p class="bgdark">Falls Sie Räume buchen oder reservieren möchten können Sie das im Formular auf der <a href="kontakt.php">Kontakseite</a> machen.</p>
+        <p class="bgdark">Falls Sie Räume buchen oder reservieren möchten können Sie das im Formular auf der <a href="kontakt.php">Kontakseite</a> machen.<br>
+            Wir werden Ihre Anfrage schnellst möglich bearbeiten und Sie per Mail über den Preis und Verfügbarkeit informieren und im Kontakt bleiben.</p>
 
 
         <div class="container-raumbeschreibung">
