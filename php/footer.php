@@ -5,8 +5,10 @@
             Gemeindezentrum Trier-West<br>
             In dieser Straße 7<br>
             54293 Trier<br>
-            Tel.: 06511 / 123456789<br>
-            Soziale Medien: ICONS STILL MISSING<br>
+            Tel.: 06511 / 123456789<br><br>
+            <a href="#" class="icon"><img src="../../img/Facebook.png" alt="Facebook"></a>
+            <a href="#" class="icon"><img src="../../img/Instagram.png" alt="Instagram"></a>
+            <a href="#" class="icon"><img src="../../img/Twitter.png" alt="Twitter"></a><br>
         </p>
     </div>
     <div class="col2">
