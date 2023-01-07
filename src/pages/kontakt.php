@@ -26,8 +26,10 @@
             <br><br>
             Anschrift: In dieser Straße 7, 54293 Trier<br>
             Telefonnummer: 06511 / 123456789 <br>
-            E-Mail-Adresse: gemeidezentrum_west@trier.de <br>
-            Soziale Medien: ICONS STILL MISSING <br>
+            E-Mail-Adresse: gemeidezentrum_west@trier.de <br><br>
+            <a href="#" class="icon"><img src="../../img/Facebook.png" alt="Facebook"></a>
+            <a href="#" class="icon"><img src="../../img/Instagram.png" alt="Instagram"></a>
+            <a href="#" class="icon"><img src="../../img/Twitter.png" alt="Twitter"></a><br>
         </p>
 
         <p>
