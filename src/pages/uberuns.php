@@ -8,7 +8,6 @@
         <link rel="stylesheet" type="text/css" href="./../css/footer.css">
         <link rel="stylesheet" type="text/css" href="./../css/styles.css">
         <script src="../js/nav-bar.js" defer></script>
-        <title>Über uns</title>
     </head>
 
     <body>
