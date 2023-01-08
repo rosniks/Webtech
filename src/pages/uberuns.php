@@ -20,9 +20,7 @@
             <h1>Über uns</h1>
 
             <div>
-                <div class="cont">
                     <div class="shape"></div>
-                    <div class="cont">
                         <p>
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut labore et dolore
@@ -58,9 +56,7 @@
                             et accusam et justo
                             duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
                             dolor sit amet.
-                        </p>
-                    </div>
-                </div>
+                        </p>                   
             </div>
 
             <h1> Unser Team</h1>
