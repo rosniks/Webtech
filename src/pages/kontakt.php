@@ -24,7 +24,7 @@
         <p>
             <strong> Gemeindezentrum Trier-West </strong>
             <br><br>
-            Anschrift: In dieser Straße 7, 54293 Trier<br>
+            Anschrift: Eurener Str. 1, 54294 Trier<br>
             Telefonnummer: 06511 / 123456789 <br>
             E-Mail-Adresse: gemeidezentrum_west@trier.de <br><br>
             <a href="#" class="icon"><img src="../../img/Facebook.png" alt="Facebook"></a>
