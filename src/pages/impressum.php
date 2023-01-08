@@ -21,8 +21,8 @@
             <h2>Angaben gem. § 5 TMG:</h2>
             <p>
                 Gemeindezentrum Trier-West<br>
-                In dieser Straße 7<br>
-                54293 Trier<br>
+                Eurener Str. 1<br>
+                54294 Trier<br>
                 <br>
             </p>
             <h2>Kontaktaufnahme</h2>
@@ -36,9 +36,9 @@
                 DE XXX XXX XXX<br>
             </p>
             <h2>Rechtsform</h2>
-                <p>
-                    Gemeindezentrum Trier-West ist eine Körperschaft des Öffentlichen Rechts<br>
-                </p>
+            <p>
+                Gemeindezentrum Trier-West ist eine Körperschaft des Öffentlichen Rechts<br>
+            </p>
             <h2><u>Haftungsausschluss – Disclaimer:</u></h2>
             <h2>Haftung für Inhalte</h2>
             <p>
