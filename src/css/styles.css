@@ -347,85 +347,20 @@ p.sUebersicht {
 }
 
 
-.class_a{ 
-    margin-top: 50px; 
-    display: flex; 
-  } 
-  
-  .class_a h1{ 
-    font-family: 'Allura', cursive; 
-    font-size: 52px; 
-    margin-bottom: 60px; 
-    text-align: center; 
-  } 
-  
-  .step_b {
-    display: flex; 
-    justify-content: center; 
-    width: auto; 
-    text-align: center; 
-    flex-wrap: wrap; 
-    margin-top: 60px;
-  } 
-  
-  .step_b .formating { 
-    background: #87c285; 
-    margin: 4px; 
-    margin-bottom: 50px; 
-    width: 300px; 
-    padding: 18px; 
-    line-height: 20px; 
-    color: #000000; 
-    position: relative; 
-
-  } 
-  
-  .step_b .formating h3{ 
-    color: #000000; 
-    font-size: 26px; 
-    margin-top: 90px; 
-  } 
-  
-  .step_b .formating p.role { 
-    color: #000000; 
-    margin: 10px 0; 
-    font-size: 13px; 
-    text-transform: uppercase; 
-  } 
-  
-  .step_b .formating .photo{ 
-    position: absolute; 
-    top: -50px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    background: #fff; 
-  } 
-  
-  .step_b .formating .photo img{
-    width: 150px; 
-    height: 150px; 
-    padding: 10px; 
-  }
- 
- .shape {
-    display: flex; 
-    background: black url(./../../img/pexels-fauxels-3184428.jpg) center top no-repeat;
-    height:70vh;
-    width:40vw;
-    background-size:cover;
-    float:right;
-    margin-top: 10px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%)
-            
-
- }
 .raumplanEl img {
     max-height: 480px;
     width: auto;
+}
+
+@media (max-width: 700px){
+    .raumplanEl img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .raummap {
+        display: none;
+    }
 }
 
 .container-raumbeschreibung {
@@ -450,6 +385,82 @@ p.sUebersicht {
 
 .class_a {
     margin-top: 50px;
+}
+.class_a{ 
+    margin-top: 50px; 
+    display: flex; 
+  } 
+  
+.class_a h1{ 
+    font-family: 'Allura', cursive; 
+    font-size: 52px; 
+    margin-bottom: 60px; 
+    text-align: center; 
+} 
+  
+.step_b {
+    display: flex; 
+    justify-content: center; 
+    width: auto; 
+    text-align: center; 
+    flex-wrap: wrap; 
+    margin-top: 60px;
+} 
+  
+.step_b .formating { 
+    background: #87c285; 
+    margin: 4px; 
+    margin-bottom: 50px; 
+    width: 300px; 
+    padding: 18px; 
+    line-height: 20px; 
+    color: #000000; 
+    position: relative; 
+
+} 
+  
+.step_b .formating h3{ 
+    color: #000000; 
+    font-size: 26px; 
+    margin-top: 90px; 
+} 
+  
+.step_b .formating p.role { 
+    color: #000000; 
+    margin: 10px 0; 
+    font-size: 13px; 
+    text-transform: uppercase; 
+} 
+  
+.step_b .formating .photo{ 
+    position: absolute; 
+    top: -50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    background: #fff; 
+} 
+  
+.step_b .formating .photo img{
+    width: 150px; 
+    height: 150px; 
+    padding: 10px; 
+}
+ 
+.shape {
+    display: flex; 
+    background: black url(./../../img/pexels-fauxels-3184428.jpg) center top no-repeat;
+    height:70vh;
+    width:40vw;
+    background-size:cover;
+    float:right;
+    margin-top: 10px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%)
+            
+
 }
 
 .class_a h1 {

@@ -22,7 +22,7 @@
                 <h1>Erdgeschoss</h1>
                 <img src="../../img/RaumplanEG.png" alt="Raumplan des Erdgeschosses" usemap="#erdgeschoss">
                 
-                <map name="erdgeschoss">
+                <map class="raummap" name="erdgeschoss">
                     <area alt="Saal 1" title="Saal1" href="#saal1" coords="12,290,280,460" shape="rect">
                     <area alt="Gemeinschaftsraum" title="Gemeinschaftsraum" href="#gmraum" coords="370,270,660,460" shape="rect">
                     <area alt="Saal 2" title="Saal2" href="#saal2" coords="12,80,270,280" shape="rect">
@@ -32,8 +32,7 @@
             <div class="raumplanEl">
                 <h1>Erster Stock</h1>
                 <img src="../../img/RaumplanOG.png" alt="Raumplan des Ersten Stocks" usemap="#ersterstock">
-                <map name="ersterstock">
-                    
+                <map class="raummap" name="ersterstock">
                     <area alt="Z-Räume" title="Z-Räume" href="#z" coords="12,360,375,460" shape="rect">
                     <area alt="Saal 3" title="Saal 3" href="#saal3" coords="380,300,650,460" shape="rect">
                     <area alt="Küche" title="Küche" href="#kueche" coords="12,80,280,240" shape="rect">
