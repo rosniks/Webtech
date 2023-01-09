@@ -452,7 +452,7 @@ p.sUebersicht {
 .shape {
     display: flex; 
     background: black url(./../../img/pexels-fauxels-3184428.jpg) center top no-repeat;
-    height:70vh;
+    height:55vh;
     width:40vw;
     background-size:cover;
     float:right;
@@ -466,7 +466,7 @@ p.sUebersicht {
 .round {
     border-radius: 100px;
     border: 1px solid rgb(83, 219, 90);
-    box-shadow: 0 0 7px #666;
+    box-shadow: 0 0 7px rgb(88, 86, 86);
 }
 
 /*.........Unterseite "Kontakt" und zugehöriges Formular.........*/
