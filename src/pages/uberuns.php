@@ -51,27 +51,24 @@
                 <div class="step_b">
                     <div class="formating">
                         <div class="photo">
-                            <img src="./../../img/pexels-christina-morillo-1181686.jpg" alt="words" class="round">
+                            <img src="./../../img/pexels-christina-morillo-1181686.jpg" alt="image" class="round">
                         </div>
-                        <h3>Nach/vorname</h3>
-                        <p class="role">Berufsbezeichnung</p>
-                        <p>Information.</p>
+                        <h3>Julia Müller</h3>
+                        <p class="role">Gründerin</p>
                     </div>
                     <div class="formating">
                         <div class="photo">
-                            <img src="./../../img/pexels-moose-photos-1036623.jpg" alt="phrase" class="round">
+                            <img src="./../../img/pexels-moose-photos-1036623.jpg" alt="image" class="round">
                         </div>
-                        <h3>Nach/vorname</h3>
-                        <p class="role">Berufsbezeichnung</p>
-                        <p>Information</p>
+                        <h3>Maria Schmidt</h3>
+                        <p class="role">Direktorin</p>
                     </div>
                     <div class="formating">
                         <div class="photo">
-                            <img src="./../../img/pexels-andrea-piacquadio-845434.jpg" alt="words" class="round">
+                            <img src="./../../img/pexels-andrea-piacquadio-845434.jpg" alt="image" class="round">
                         </div>
-                        <h3>Nach/vorname</h3>
-                        <p class="role">Berufsbezeichnung</p>
-                        <p>Information</p>
+                        <h3>Thomas Fischer</h3>
+                        <p class="role">Community Manager</p>
                     </div>
                 </div>
             </div>
@@ -80,25 +77,22 @@
                     <div class="photo">
                         <img src="./../../img/pexels-rodnae-productions-8126654.jpg" alt="phrase" class="round">
                     </div>
-                    <h3>Nach/vorname</h3>
-                    <p class="role">Berufsbezeichnung</p>
-                    <p>Information.</p>
+                    <h3>Daniel Mayer</h3>
+                    <p class="role">Event Manager</p>
                 </div>
                 <div class="formating">
                     <div class="photo">
-                        <img src="./../../img/pexels-moose-photos-1036627.jpg" alt="words" class="round">
+                        <img src="./../../img/pexels-moose-photos-1036627.jpg" alt="image" class="round">
                     </div>
-                    <h3>Nach/vorname</h3>
-                    <p class="role">Berufsbezeichnung</p>
-                    <p>Information</p>
+                    <h3>Jacob Becker</h3>
+                    <p class="role">DJ</p>
                 </div>
                 <div class="formating">
                     <div class="photo">
-                        <img src="./../../img/pexels-shvets-production-8417269.jpg" alt="phrase" class="round">
+                        <img src="./../../img/pexels-shvets-production-8417269.jpg" alt="image" class="round">
                     </div>
-                    <h3>Nach/vorname</h3>
-                    <p class="role">Berufsbezeichnung</p>
-                    <p>Information</p>
+                    <h3>Anna Schulz</h3>
+                    <p class="role">Animateurin</p>
                 </div>
             </div>
 

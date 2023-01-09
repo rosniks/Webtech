@@ -408,7 +408,7 @@ p.sUebersicht {
 } 
   
 .step_b .formating { 
-    background: #87c285; 
+    background: #b8e9b6; 
     margin: 4px; 
     margin-bottom: 50px; 
     width: 300px; 
@@ -428,7 +428,7 @@ p.sUebersicht {
 .step_b .formating p.role { 
     color: #000000; 
     margin: 10px 0; 
-    font-size: 13px; 
+    font-size: 15px; 
     text-transform: uppercase; 
 } 
   
