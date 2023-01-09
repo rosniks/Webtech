@@ -51,7 +51,7 @@
                 <div class="step_b">
                     <div class="formating">
                         <div class="photo">
-                            <img src="./../../img/pexels-tima-miroshnichenko-5710615.jpg" alt="words" class="round">
+                            <img src="./../../img/pexels-christina-morillo-1181686.jpg" alt="words" class="round">
                         </div>
                         <h3>Nach/vorname</h3>
                         <p class="role">Berufsbezeichnung</p>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="formating">
                         <div class="photo">
-                            <img src="./../../img/pexels-ali-pazani-2787341.jpg" alt="phrase" class="round">
+                            <img src="./../../img/pexels-moose-photos-1036623.jpg" alt="phrase" class="round">
                         </div>
                         <h3>Nach/vorname</h3>
                         <p class="role">Berufsbezeichnung</p>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="formating">
                         <div class="photo">
-                            <img src="./../../img/pexels-daniel-xavier-1239288.jpg" alt="words" class="round">
+                            <img src="./../../img/pexels-andrea-piacquadio-845434.jpg" alt="words" class="round">
                         </div>
                         <h3>Nach/vorname</h3>
                         <p class="role">Berufsbezeichnung</p>
@@ -78,7 +78,7 @@
             <div class="step_b">
                 <div class="formating">
                     <div class="photo">
-                        <img src="./../../img/pexels-marcus-aurelius-4063530.jpg" alt="phrase" class="round">
+                        <img src="./../../img/pexels-rodnae-productions-8126654.jpg" alt="phrase" class="round">
                     </div>
                     <h3>Nach/vorname</h3>
                     <p class="role">Berufsbezeichnung</p>
