@@ -2,110 +2,89 @@
 
 <html lang="zxx">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./../css/nav-bar.css">
-        <link rel="stylesheet" type="text/css" href="./../css/footer.css">
-        <link rel="stylesheet" type="text/css" href="./../css/styles.css">
-        <script src="../js/nav-bar.js" defer></script>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./../css/nav-bar.css">
+    <link rel="stylesheet" type="text/css" href="./../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./../css/styles.css">
+    <script src="../js/nav-bar.js" defer></script>
+</head>
 
-    <body>
-        
+<body>
+
     <?php include "../../php/nav.php"; ?>
 
-        <main>
+    <main>
 
-            <h1>Über uns</h1>
+        <h1>Über uns</h1>
 
-            <div>
-                    <div class="shape"></div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                            ut labore et dolore
-                            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                            Stet clita kasd
-                            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                            consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                            voluptua. At vero
-                            eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                            sanctus est Lorem ipsum
-                            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                            tempor invidunt ut
-                            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                            dolores et ea rebum.
-                            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                            dolor sit amet,
-                            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                            aliquyam erat, sed
-                            diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                            gubergren, no sea takimata
-                            sanctus est Lorem ipsum dolor sit amet.Stet clita kasd gubergren, no sea takimata sanctus est
-                        </p>                   
-            </div>
+        <div>
+            <div class="shape"></div>
+            <p>
+                Unser Zentrum wurde 2022 gegründet. In nur drei Monaten Arbeit wurden wir von mehr
+                als 1000 Menschen besucht. Das Hauptkonzept dieser Einrichtung war es, ein Zentrum zu schaffen, in dem alle Menschen, unabhängig vom
+                Alter, Spaß haben können.Wir haben auch vielen einsamen Menschen geholfen, Freude zu finden. Viele von ihnen haben hier neue Freunde und Gleichgesinnte  gefunden. Außerdem finden regelmäßig verschiedene Veranstaltungen für Jugendliche statt.Mindestens einmal im Monat organisieren wir Discos. Jeden Sonntag haben wir eine Veranstaltung 
+                "Sonntags-Café". Diese Veranstaltung unterscheidet sich von anderen dadurch, dass es keine Altersbeschränkungen gibt. hier können sie auch einen saal für ihre veranstaltung mieten. Unser Team hilft auch bei der Organisation. Sie müssen sich keine Sorgen machen. Wir freuen uns auch über neue Mitarbeiter. Wenn Sie neue Ideen für unser Zentrum haben und Menschen helfen möchten, 
+                können Sie Ihren Lebenslauf an unsere E-Mail-Adresse senden. Sie sind herzlich willkommen in unserem Gemeindezentrum.
+                Wir hoffen, dass Sie viele gute Emotionen in unserem Gemeindezentrum bekommen werden!
+            </p>
+        </div>
 
-            <h1> Unser Team</h1>
+        <h1> Unser Team</h1>
 
-            <div>
-                <div class="step_b">
-                    <div class="formating">
-                        <div class="photo">
-                            <img src="./../../img/pexels-tima-miroshnichenko-5710615.jpg" alt="words" class="round">
-                        </div>
-                        <h3>Nach/vorname</h3>
-                        <p class="role">Berufsbezeichnung</p>
-                        <p>Information.</p>
-                    </div>
-                    <div class="formating">
-                        <div class="photo">
-                            <img src="./../../img/pexels-ali-pazani-2787341.jpg" alt="phrase" class="round">
-                        </div>
-                        <h3>Nach/vorname</h3>
-                        <p class="role">Berufsbezeichnung</p>
-                        <p>Information</p>
-                    </div>
-                    <div class="formating">
-                        <div class="photo">
-                            <img src="./../../img/pexels-daniel-xavier-1239288.jpg" alt="words" class="round">
-                        </div>
-                        <h3>Nach/vorname</h3>
-                        <p class="role">Berufsbezeichnung</p>
-                        <p>Information</p>
-                    </div>
-                </div>
-            </div>
+        <div>
             <div class="step_b">
                 <div class="formating">
                     <div class="photo">
-                        <img src="./../../img/pexels-marcus-aurelius-4063530.jpg" alt="phrase" class="round">
+                        <img src="./../../img/pexels-christina-morillo-1181686.jpg" alt="image" class="round">
                     </div>
-                    <h3>Nach/vorname</h3>
-                    <p class="role">Berufsbezeichnung</p>
-                    <p>Information.</p>
+                    <h3>Julia Müller</h3>
+                    <p class="role">Gründerin</p>
                 </div>
                 <div class="formating">
                     <div class="photo">
-                        <img src="./../../img/pexels-moose-photos-1036627.jpg" alt="words" class="round">
+                        <img src="./../../img/pexels-moose-photos-1036623.jpg" alt="image" class="round">
                     </div>
-                    <h3>Nach/vorname</h3>
-                    <p class="role">Berufsbezeichnung</p>
-                    <p>Information</p>
+                    <h3>Maria Schmidt</h3>
+                    <p class="role">Direktorin</p>
                 </div>
                 <div class="formating">
                     <div class="photo">
-                        <img src="./../../img/pexels-shvets-production-8417269.jpg" alt="phrase" class="round">
+                        <img src="./../../img/pexels-andrea-piacquadio-845434.jpg" alt="image" class="round">
                     </div>
-                    <h3>Nach/vorname</h3>
-                    <p class="role">Berufsbezeichnung</p>
-                    <p>Information</p>
+                    <h3>Thomas Fischer</h3>
+                    <p class="role">Community Manager</p>
                 </div>
             </div>
+        </div>
+        <div class="step_b">
+            <div class="formating">
+                <div class="photo">
+                    <img src="./../../img/pexels-rodnae-productions-8126654.jpg" alt="phrase" class="round">
+                </div>
+                <h3>Daniel Mayer</h3>
+                <p class="role">Event Manager</p>
+            </div>
+            <div class="formating">
+                <div class="photo">
+                    <img src="./../../img/pexels-moose-photos-1036627.jpg" alt="image" class="round">
+                </div>
+                <h3>Jacob Becker</h3>
+                <p class="role">DJ</p>
+            </div>
+            <div class="formating">
+                <div class="photo">
+                    <img src="./../../img/pexels-shvets-production-8417269.jpg" alt="image" class="round">
+                </div>
+                <h3>Anna Schulz</h3>
+                <p class="role">Animateurin</p>
+            </div>
+        </div>
 
-        </main>
+    </main>
 
-        <?php include '../../php/footer.php'; ?>
+    <?php include '../../php/footer.php'; ?>
 
-    </body>
+</body>
 
 </html>
