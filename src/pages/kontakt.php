@@ -39,6 +39,8 @@
             Samstag und Sonntag: zu Veranstaltungszeiten
         </p>
 
+        <p><strong>Unser Standort (präsentiert über GoogleMaps)</strong></p>
+
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d648.6639422961708!2d6.620159943946318!3d49.751219055685404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47957ca6f5d23081%3A0x84c4b85cb4d53ff0!2sEurener%20Str.%201%2C%2054294%20Trier!5e1!3m2!1sde!2sde!4v1672769920554!5m2!1sde!2sde"
             width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" class="map"
