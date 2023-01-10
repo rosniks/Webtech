@@ -484,3 +484,37 @@ fieldset {
     margin: 0.5rem 0rem;
     padding: 1rem;
 }
+
+/*----Galerie----*/
+
+.galerie-wrapper {
+    width: 85%;
+    margin: 20px auto;
+    background: #f0f0f0;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+
+.item {
+    background: #fff;
+    width: 402px;
+    height: 320px;
+    float: left;
+    text-align: center;
+    margin: 0 15px 15px 0;
+}
+
+    .item > div {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+.photo {
+    width: 100%;
+    transition: all .5s;
+}
+
+    .photo:hover {
+        box-shadow: 0 0 10px #000;
+    }
