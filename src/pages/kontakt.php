@@ -67,6 +67,7 @@
                 <fieldset>
                     <legend>Betreff (*)</legend>
 
+                    <label for="zweck">Betreff:</label>
                     <select id="zweck" name="zweck" onclick="add_raume()">
                         <option value="zweck1">1. Teilnahme-Anfrage zu einer Veranstaltung oder einem Kurs</option>
                         <option value="zweck2">2. Raumbuchung zur Eigennutzung</option>
@@ -110,6 +111,7 @@
                 <fieldset>
                     <legend>Ihre E-Mail-Adresse (*)</legend>
 
+                    <label for="email">Unter diese Mail erreichen wir Sie:</label>
                     <input type="email" id="email" name="email" placeholder="AlexSchneider@web.de" size="50"
                         maxlength="150" required>
 
@@ -118,6 +120,7 @@
                 <fieldset>
                     <legend>Ihre Telefonnummer</legend>
 
+                    <label for="telefon">Unter diese Telefonnummer erreichen wir Sie:</label>
                     <input type="text" id="telefon" name="telefon" placeholder="12345 456789" size="50" maxlength="100">
 
                 </fieldset>
@@ -127,12 +130,14 @@
                 <fieldset>
                     <legend>Ihre Anliegen (*)</legend>
 
+                    <label for="anliegen">Ich möchte Ihnen mitteilen...</label>
                     <textarea id="anliegen" name="anliegen" rows="10" minlength="10" maxlength="1000"
                         required></textarea>
 
                 </fieldset>
 
                 <p>
+                    <label for="email">Akzeptieren der DsgVO:</label>
                     <input type="checkbox" value="datenschutz" name="datenschutz" required>
                     Ich habe die <a href="datenschutzrichtlinien.php">Datenschutzhinweise</a> gelesen und stimme der
                     Übertragung meiner Daten zu. (*) <br>
