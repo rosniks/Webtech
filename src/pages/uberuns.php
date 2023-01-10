@@ -62,8 +62,8 @@
                 <div class="photo">
                     <img src="./../../img/pexels-rodnae-productions-8126654.jpg" alt="phrase" class="round">
                 </div>
-                <h3>Daniel Mayer</h3>
-                <p class="role">Event Manager</p>
+                <h3>Lara Biewers</h3>
+                <p class="role">Web-Entwicklerin <br> larabiewers@gmail.com</p>
             </div>
             <div class="formating">
                 <div class="photo">

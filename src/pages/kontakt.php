@@ -73,6 +73,7 @@
                             <option value="zweck2">2. Raumbuchung zur Eigennutzung</option>
                             <option value="zweck3">3. Rückmeldung zu einer Veranstaltung</option>
                             <option value="zweck4">4. Meldung technischer Probleme</option>
+                            <option value="zweck5">5. Ich möchte Mitglied werden</option>
                         </select>
                     </fieldset>
 
