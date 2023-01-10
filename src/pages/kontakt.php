@@ -42,7 +42,7 @@
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d648.6639422961708!2d6.620159943946318!3d49.751219055685404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47957ca6f5d23081%3A0x84c4b85cb4d53ff0!2sEurener%20Str.%201%2C%2054294%20Trier!5e1!3m2!1sde!2sde!4v1672769920554!5m2!1sde!2sde"
             width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" class="map"
-            alt="Gemeindezentrum Trier West" referrerpolicy="no-referrer-when-downgrade">
+            referrerpolicy="no-referrer-when-downgrade">
         </iframe>
 
         <hr>
@@ -65,7 +65,7 @@
                 <div class="formFields">
 
                     <fieldset>
-                    <legend>Ihr Betreff (*)</legend>
+                        <legend>Ihr Betreff (*)</legend>
 
                         <label for="zweck">Betreff:</label>
                         <select id="zweck" name="zweck" onclick="add_raume()">
@@ -118,14 +118,14 @@
 
                     <fieldset>
                         <legend>Ihre E-Mail-Adresse (*)</legend>
-                        <label for="email">Unter diese Mail erreichen wir Sie:</label>
+                        <label for="email">E-Mail:</label>
                         <input type="email" id="email" name="email" placeholder="AlexSchneider@web.de" size="50"
                             maxlength="150" required>
                     </fieldset>
 
                     <fieldset>
                         <legend>Ihre Telefonnummer</legend>
-                        <label for="telefon">Unter diese Telefonnummer erreichen wir Sie:</label>
+                        <label for="telefon">Tel:</label>
                         <input type="text" id="telefon" name="telefon" placeholder="12345 456789" size="50"
                             maxlength="100">
                     </fieldset>
@@ -134,18 +134,16 @@
 
                     <fieldset>
                         <legend>Ihre Anliegen (*)</legend>
-
-                        <label for="anliegen">Ich möchte Ihnen mitteilen...</label>
+                        <label for="anliegen"></label>
                         <textarea id="anliegen" name="anliegen" rows="10" minlength="10" maxlength="1000"
                             required></textarea>
-
                     </fieldset>
 
                 </div>
 
                 <p>
-                    <label for="email">Akzeptieren der DsgVO:</label>
-                    <input type="checkbox" value="datenschutz" name="datenschutz" required>
+                    <label for="datenschutz">DsgVO:</label>
+                    <input type="checkbox" value="datenschutz" id="datenschutz" name="datenschutz" required>
                     Ich habe die <a href="datenschutzrichtlinien.php">Datenschutzhinweise</a> gelesen und stimme der
                     Übertragung meiner Daten zu. (*) <br>
                 </p>
