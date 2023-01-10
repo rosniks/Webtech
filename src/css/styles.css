@@ -510,4 +510,5 @@ fieldset>div.formBreak {
 
 .photo {
     width: 100%;
-    tra
+    transition: all .5s;
+}
