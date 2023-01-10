@@ -22,21 +22,21 @@
     <main>
         <div class="slider">
             <div class="slide">
-                <a href='raeume.php'><img src="../../img/Gemeinschaftsraum.jpg" alt="Gemeinschaftsraum"></a>
+                <img src="../../img/Gemeinschaftsraum.jpg" alt="Gemeinschaftsraum">
                 <div class="slide-beschreibung">
                     <h1 class="slide-title">Freizeit</h1>
                     <p class="silde-text">Entspannung pur erwartet euch im Gemeinschaftraum des Gemeindezentrums. Lernt neue Leute kennen und habt Spaß.</p>
                 </div>
             </div>
             <div class="slide">
-                <a href="VeranstaltungenSilversterParty.php"><img src="../../img/Silvester-Party.jpg" alt="Silversterparty"></a>
+                <img src="../../img/Silvester-Party.jpg" alt="Silversterparty">
                 <div class="slide-beschreibung">
                     <h1 class="slide-title">Silvester-Party</h1>
                     <p class="slide-text">Lasst uns das neue Jahr zusammen begrüßen!</p>
                 </div>
             </div>
             <div class="slide">
-            <a href="VeranstaltungenSonntagsCafeA.php"><img src="../../img/Sonntags-Cafe.jpg" alt="Sonntags-Cafe">
+                <img src="../../img/Sonntags-Cafe.jpg" alt="Sonntags-Cafe">
                 <div class="slide-beschreibung">
                     <h1 class="slide-title">Sonntagskaffee</h1>
                     <p class="slide-text">Nette Gespräche. Tolle Menschen. Leckerer Kaffee und Kuchen.</p>

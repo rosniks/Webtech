@@ -3,29 +3,22 @@
 Aufteilung der Bearbeitung:
 
 Lara Biewers
-- veranstaltungen.php / Muster / Ausarbeitung der Unterseiten
-- kurse.php / Muster / Ausarbeitung der Unterseiten
-- kontakt.php
-+ table-SearchEngine.js
-+ kontaktformular.js
+- aktuelle Veranstaltungen / Muster
+- aktuelle Kurse / Muster
+- interne Suche
++ navBar Zusatz für Veranstaltungen
++ table-SearchEngine
++ inner-SearchEngine
 
 Niklas Rose
-- index.php
-- raeume.php
-+ Header / Footer (css & php & js)
-+ slider.js
+- Startseite
++ Header / Footer / Haupt-NavBar
 
 Marta Khatsiur
-- uberuns.php
-- impressum.php
-- datenschutz.php
+- Über uns
 
 Komila Vokhidova
-- kontakte (Grundlage)
-- gallerie
-
-
-Ablauf der Hausarbeit:
+- Kontakte
 
 3.1) Erster Teil der Realisierung [BIS 01.12.2022]
 

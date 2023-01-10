@@ -26,7 +26,7 @@
                 Alter, Spaß haben können.Wir haben auch vielen einsamen Menschen geholfen, Freude zu finden. Viele von ihnen haben hier neue Freunde und Gleichgesinnte  gefunden. Außerdem finden regelmäßig verschiedene Veranstaltungen für Jugendliche statt.Mindestens einmal im Monat organisieren wir Discos. Jeden Sonntag haben wir eine Veranstaltung 
                 "Sonntags-Café". Diese Veranstaltung unterscheidet sich von anderen dadurch, dass es keine Altersbeschränkungen gibt. hier können sie auch einen saal für ihre veranstaltung mieten. Unser Team hilft auch bei der Organisation. Sie müssen sich keine Sorgen machen. Wir freuen uns auch über neue Mitarbeiter. Wenn Sie neue Ideen für unser Zentrum haben und Menschen helfen möchten, 
                 können Sie Ihren Lebenslauf an unsere E-Mail-Adresse senden. Sie sind herzlich willkommen in unserem Gemeindezentrum.
-                Wir hoffen, dass Sie viele gute Emotionen in unserem Gemeindezentrum bekommen werden!
+                Wir hoffen, dass Sie viele gute Emotionen in unserem Gemeindezentrum bekommen werden.
             </p>
         </div>
 

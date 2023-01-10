@@ -40,49 +40,49 @@
                     <th>Schlagworte</th>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="kursFranzoesisch.php">Dienstag, ab 07.02.23</a></td>
-                    <td><a href="kursFranzoesisch.php">19:00 - 19:45 Uhr</a></td>
-                    <td><a href="kursFranzoesisch.php">Französisch für Anfänger</a></td>
-                    <td><a href="kursFranzoesisch.php">Saal 3</a></td>
-                    <td><a href="kursFranzoesisch.php">12</a></td>
-                    <td><a href="kursFranzoesisch.php">60€</a></td>
-                    <td><a href="kursFranzoesisch.php">Sprachen, Französisch</a></td>
+                    <td><a href="KursFranzoesisch.php">Dienstag, ab 07.02.23</a></td>
+                    <td><a href="KursFranzoesisch.php">19:00 - 19:45 Uhr</a></td>
+                    <td><a href="KursFranzoesisch.php">Französisch für Anfänger</a></td>
+                    <td><a href="KursFranzoesisch.php">Saal 3</a></td>
+                    <td><a href="KursFranzoesisch.php">12</a></td>
+                    <td><a href="KursFranzoesisch.php">60€</a></td>
+                    <td><a href="KursFranzoesisch.php">Sprachen, Französisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="kursLuxemburgisch.php">Dienstag, ab 14.02.23</a></td>
-                    <td><a href="kursLuxemburgisch.php">18:00 - 18:45 Uhr</a></td>
-                    <td><a href="kursLuxemburgisch.php">Luxemburgisch lernen</a></td>
-                    <td><a href="kursLuxemburgisch.php">Saal 3</a></td>
-                    <td><a href="kursLuxemburgisch.php">12</a></td>
-                    <td><a href="kursLuxemburgisch.php">60€</a></td>
-                    <td><a href="kursLuxemburgisch.php">Sprachen, Luxemburgisch</a></td>
+                    <td><a href="KursLuxemburgisch.php">Dienstag, ab 14.02.23</a></td>
+                    <td><a href="KursLuxemburgisch.php">18:00 - 18:45 Uhr</a></td>
+                    <td><a href="KursLuxemburgisch.php">Luxemburgisch lernen</a></td>
+                    <td><a href="KursLuxemburgisch.php">Saal 3</a></td>
+                    <td><a href="KursLuxemburgisch.php">12</a></td>
+                    <td><a href="KursLuxemburgisch.php">60€</a></td>
+                    <td><a href="KursLuxemburgisch.php">Sprachen, Luxemburgisch</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="kursFotografie.php">Samstag, ab 18.02.23</a></td>
-                    <td><a href="kursFotografie.php">13:00 - 16:00 Uhr</a></td>
-                    <td><a href="kursFotografie.php">Landschaftsfotografie</a></td>
-                    <td><a href="kursFotografie.php">Saal 3</a></td>
-                    <td><a href="kursFotografie.php">3</a></td>
-                    <td><a href="kursFotografie.php">15€</a></td>
-                    <td><a href="kursFotografie.php">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
+                    <td><a href="KursFotografie.php">Samstag, ab 18.02.23</a></td>
+                    <td><a href="KursFotografie.php">13:00 - 16:00 Uhr</a></td>
+                    <td><a href="KursFotografie.php">Landschaftsfotografie</a></td>
+                    <td><a href="KursFotografie.php">Saal 3</a></td>
+                    <td><a href="KursFotografie.php">3</a></td>
+                    <td><a href="KursFotografie.php">15€</a></td>
+                    <td><a href="KursFotografie.php">Kultur, Gestalten, Kunst, Fotografie, Landschaft</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="kursRoemischeKueche.php">Montag, ab 20.02.23</a></td>
-                    <td><a href="kursRoemischeKueche.php">19:00 - 21:00 Uhr</a></td>
-                    <td><a href="kursRoemischeKueche.php">Facetten der römischen Küche</a></td>
-                    <td><a href="kursRoemischeKueche.php">Saal 2, Küche</a></td>
-                    <td><a href="kursRoemischeKueche.php">5</a></td>
-                    <td><a href="kursRoemischeKueche.php">150€</a></td>
-                    <td><a href="kursRoemischeKueche.php">Ernährung, regionale Küche, Kultur, Kochen</a></td>
+                    <td><a href="KursRoemischeKueche.php">Montag, ab 20.02.23</a></td>
+                    <td><a href="KursRoemischeKueche.php">19:00 - 21:00 Uhr</a></td>
+                    <td><a href="KursRoemischeKueche.php">Facetten der römischen Küche</a></td>
+                    <td><a href="KursRoemischeKueche.php">Saal 2, Küche</a></td>
+                    <td><a href="KursRoemischeKueche.php">5</a></td>
+                    <td><a href="KursRoemischeKueche.php">150€</a></td>
+                    <td><a href="KursRoemischeKueche.php">Ernährung, regionale Küche, Kultur, Kochen</a></td>
                 </tr>
                 <tr class="veranstaltung">
-                    <td><a href="kursGymnastik.php">Mittwoch, ab 08.03.23</a></td>
-                    <td><a href="kursGymnastik.php">18:00 - 19:00 Uhr</a></td>
-                    <td><a href="kursGymnastik.php">Gymnastik-Kurs</a></td>
-                    <td><a href="kursGymnastik.php">Saal 1</a></td>
-                    <td><a href="kursGymnastik.php">10</a></td>
-                    <td><a href="kursGymnastik.php">70€</a></td>
-                    <td><a href="kursGymnastik.php">Bewegung, Gymnastik, Sport, Gesundheit</a></td>
+                    <td><a href="KursGymnastik.php">Mittwoch, ab 08.03.23</a></td>
+                    <td><a href="KursGymnastik.php">18:00 - 19:00 Uhr</a></td>
+                    <td><a href="KursGymnastik.php">Gymnastik-Kurs</a></td>
+                    <td><a href="KursGymnastik.php">Saal 1</a></td>
+                    <td><a href="KursGymnastik.php">10</a></td>
+                    <td><a href="KursGymnastik.php">70€</a></td>
+                    <td><a href="KursGymnastik.php">Bewegung, Gymnastik, Sport, Gesundheit</a></td>
                 </tr>
             </table>
         </div>
