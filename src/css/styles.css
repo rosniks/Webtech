@@ -480,6 +480,8 @@ p.sUebersicht {
 .formular {
     margin: 3rem 5%;
     width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: thin;
 }
 
 fieldset {

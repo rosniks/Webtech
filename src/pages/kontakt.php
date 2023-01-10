@@ -85,7 +85,7 @@
                             <option value="anrede3">Herr</option>
                         </select>
                     </div>
-                    
+
                     <div class="formBreak">                    
                         <label for="titel">Titel:</label>
                         <select id="titel" name="titel">
@@ -132,7 +132,7 @@
                 <fieldset>
                     <legend>Ihre Anliegen (*)</legend>
 
-                    <textarea id="anliegen" name="anliegen" rows="10" minlength="10" maxlength="1000"
+                    <textarea id="anliegen" name="anliegen" rows="10" cols="40" minlength="10" maxlength="1000"
                         required></textarea>
 
                 </fieldset>
