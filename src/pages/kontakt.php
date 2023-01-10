@@ -62,80 +62,85 @@
 
             <form id="kontaktForm" name="kontaktForm" action="kontakt.php" method="GET">
 
-                <fieldset>
-                    <legend>Betreff (*)</legend>
+                <div class="formFields">
 
-                    <select id="zweck" name="zweck" onclick="add_raume()">
-                        <option value="zweck1">1. Teilnahme-Anfrage zu einer Veranstaltung oder einem Kurs</option>
-                        <option value="zweck2">2. Raumbuchung zur Eigennutzung</option>
-                        <option value="zweck3">3. Rückmeldung zu einer Veranstaltung</option>
-                        <option value="zweck4">4. Meldung technischer Probleme</option>
-                    </select>
-                </fieldset>
+                    <fieldset>
+                        <legend>Betreff (*)</legend>
 
-                <fieldset>
-                    <legend>Ihr Name (*)</legend>
-
-                    <div class="formBreak">
-                        <label for="anrede">Anrede:</label>
-                        <select id="anrede" name="anrede">
-                            <option value="anrede0">-/-</option>
-                            <option value="anrede1">Divers</option>
-                            <option value="anrede2">Frau</option>
-                            <option value="anrede3">Herr</option>
+                        <select id="zweck" name="zweck" onclick="add_raume()">
+                            <option value="zweck1">1. Teilnahme-Anfrage zu einer Veranstaltung oder einem Kurs</option>
+                            <option value="zweck2">2. Raumbuchung zur Eigennutzung</option>
+                            <option value="zweck3">3. Rückmeldung zu einer Veranstaltung</option>
+                            <option value="zweck4">4. Meldung technischer Probleme</option>
                         </select>
-                    </div>
+                    </fieldset>
 
-                    <div class="formBreak">                    
-                        <label for="titel">Titel:</label>
-                        <select id="titel" name="titel">
-                            <option value="titel0">-/-</option>
-                            <option value="titel1">Prof.</option>
-                            <option value="titel2">Dr.</option>
-                            <option value="titel3">Dipl.-Ing.</option>
-                            <option value="titel4">B.A.</option>
-                            <option value="titel5">M.A.</option>
-                        </select>
-                    </div>
+                    <fieldset>
+                        <legend>Ihr Name (*)</legend>
 
-                    <div class="formBreak">
-                        <label for="vorname">Vorname:</label>
-                        <input type="text" id="vorname" name="Vorname" placeholder="Alex" minlength="2" maxlength="100"
-                            required>
-                    </div>
+                        <div class="formBreak">
+                            <label for="anrede">Anrede:</label>
+                            <select id="anrede" name="anrede">
+                                <option value="anrede0">-/-</option>
+                                <option value="anrede1">Divers</option>
+                                <option value="anrede2">Frau</option>
+                                <option value="anrede3">Herr</option>
+                            </select>
+                        </div>
 
-                    <div class="formBreak">
-                        <label for="nachname">Nachname:</label>
-                        <input type="text" id="nachname" name="Nachname" placeholder="Schneider" minlength="2"
-                            maxlength="100" required>
-                    </div>
+                        <div class="formBreak">
+                            <label for="titel">Titel:</label>
+                            <select id="titel" name="titel">
+                                <option value="titel0">-/-</option>
+                                <option value="titel1">Prof.</option>
+                                <option value="titel2">Dr.</option>
+                                <option value="titel3">Dipl.-Ing.</option>
+                                <option value="titel4">B.A.</option>
+                                <option value="titel5">M.A.</option>
+                            </select>
+                        </div>
 
-                </fieldset>
+                        <div class="formBreak">
+                            <label for="vorname">Vorname:</label>
+                            <input type="text" id="vorname" name="Vorname" placeholder="Alex" minlength="2"
+                                maxlength="100" required>
+                        </div>
 
-                <fieldset>
-                    <legend>Ihre E-Mail-Adresse (*)</legend>
+                        <div class="formBreak">
+                            <label for="nachname">Nachname:</label>
+                            <input type="text" id="nachname" name="Nachname" placeholder="Schneider" minlength="2"
+                                maxlength="100" required>
+                        </div>
 
-                    <input type="email" id="email" name="email" placeholder="AlexSchneider@web.de" size="50"
-                        maxlength="150" required>
+                    </fieldset>
 
-                </fieldset>
+                    <fieldset>
+                        <legend>Ihre E-Mail-Adresse (*)</legend>
 
-                <fieldset>
-                    <legend>Ihre Telefonnummer</legend>
+                        <input type="email" id="email" name="email" placeholder="AlexSchneider@web.de" size="50"
+                            maxlength="150" required>
 
-                    <input type="text" id="telefon" name="telefon" placeholder="12345 456789" size="50" maxlength="100">
+                    </fieldset>
 
-                </fieldset>
+                    <fieldset>
+                        <legend>Ihre Telefonnummer</legend>
 
-                <div id="fieldsetRaum"></div>
+                        <input type="text" id="telefon" name="telefon" placeholder="12345 456789" size="50"
+                            maxlength="100">
 
-                <fieldset>
-                    <legend>Ihre Anliegen (*)</legend>
+                    </fieldset>
 
-                    <textarea id="anliegen" name="anliegen" rows="10" cols="40" minlength="10" maxlength="1000"
-                        required></textarea>
+                    <div id="fieldsetRaum"></div>
 
-                </fieldset>
+                    <fieldset>
+                        <legend>Ihre Anliegen (*)</legend>
+
+                        <textarea id="anliegen" name="anliegen" rows="10" cols="40" minlength="10" maxlength="1000"
+                            required></textarea>
+
+                    </fieldset>
+
+                </div>
 
                 <p>
                     <input type="checkbox" value="datenschutz" name="datenschutz" required>
