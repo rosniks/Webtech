@@ -25,7 +25,7 @@
                         Uns</a>
                 </li>
                 <li>
-                    <a href="galerie.php"
+                    <a href="#"
                         class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/galerie.php' ? 'aktuell' : ''); ?>">Galerie</a>
                 </li>
                 <li>
