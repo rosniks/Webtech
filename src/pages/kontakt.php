@@ -76,32 +76,39 @@
                 <fieldset>
                     <legend>Ihr Name (*)</legend>
 
+                    <div class="formBreak">
+                        <label for="anrede">Anrede:</label>
+                        <select id="anrede" name="anrede">
+                            <option value="anrede0">-/-</option>
+                            <option value="anrede1">Divers</option>
+                            <option value="anrede2">Frau</option>
+                            <option value="anrede3">Herr</option>
+                        </select>
+                    </div>
+                    
+                    <div class="formBreak">                    
+                        <label for="titel">Titel:</label>
+                        <select id="titel" name="titel">
+                            <option value="titel0">-/-</option>
+                            <option value="titel1">Prof.</option>
+                            <option value="titel2">Dr.</option>
+                            <option value="titel3">Dipl.-Ing.</option>
+                            <option value="titel4">B.A.</option>
+                            <option value="titel5">M.A.</option>
+                        </select>
+                    </div>
 
-                    <label for="anrede">Anrede:</label>
-                    <select id="anrede" name="anrede">
-                        <option value="anrede0">-/-</option>
-                        <option value="anrede1">Divers</option>
-                        <option value="anrede2">Frau</option>
-                        <option value="anrede3">Herr</option>
-                    </select>
+                    <div class="formBreak">
+                        <label for="vorname">Vorname:</label>
+                        <input type="text" id="vorname" name="Vorname" placeholder="Alex" minlength="2" maxlength="100"
+                            required>
+                    </div>
 
-                    <label for="titel">Titel:</label>
-                    <select id="titel" name="titel">
-                        <option value="titel0">-/-</option>
-                        <option value="titel1">Prof.</option>
-                        <option value="titel2">Dr.</option>
-                        <option value="titel3">Dipl.-Ing.</option>
-                        <option value="titel4">B.A.</option>
-                        <option value="titel5">M.A.</option>
-                    </select>
-
-                    <label for="vorname">Vorname:</label>
-                    <input type="text" id="vorname" name="Vorname" placeholder="Alex" minlength="2" maxlength="100"
-                        required>
-
-                    <label for="nachname">Nachname:</label>
-                    <input type="text" id="nachname" name="Nachname" placeholder="Schneider" minlength="2"
-                        maxlength="100" required>
+                    <div class="formBreak">
+                        <label for="nachname">Nachname:</label>
+                        <input type="text" id="nachname" name="Nachname" placeholder="Schneider" minlength="2"
+                            maxlength="100" required>
+                    </div>
 
                 </fieldset>
 
