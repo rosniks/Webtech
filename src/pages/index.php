@@ -29,14 +29,14 @@
                 </div>
             </div>
             <div class="slide">
-                <a href="VeranstaltungenSilversterParty.php"><img src="../../img/Silvester-Party.jpg" alt="Silversterparty"></a>
+                <a href="VeranstaltungSilvesterParty.php"><img src="../../img/Silvester-Party.jpg" alt="Silversterparty"></a>
                 <div class="slide-beschreibung">
                     <h1 class="slide-title">Silvester-Party</h1>
                     <p class="slide-text">Lasst uns das neue Jahr zusammen begrüßen!</p>
                 </div>
             </div>
             <div class="slide">
-            <a href="VeranstaltungenSonntagsCafeA.php"><img src="../../img/Sonntags-Cafe.jpg" alt="Sonntags-Cafe">
+            <a href="VeranstaltungSonntagsCafeA.php"><img src="../../img/Sonntags-Cafe.jpg" alt="Sonntags-Cafe"></a>
                 <div class="slide-beschreibung">
                     <h1 class="slide-title">Sonntagskaffee</h1>
                     <p class="slide-text">Nette Gespräche. Tolle Menschen. Leckerer Kaffee und Kuchen.</p>
