@@ -20,7 +20,7 @@
 
         <h1>Unsere Bildergalerie</h1>
         <p>Hier einige Bilder von unserem Gemeindezentrum von innen und außen sowie von unseren vergangenen Veranstaltungen.
-        <br></br>
+        <br><br>
         Die neue Fotos von aktuellen Veranstaltungen stellen wir schnellstmöglich rein. Verpassen Sie diese nicht!
         </p>
 
