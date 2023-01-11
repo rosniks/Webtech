@@ -60,6 +60,12 @@
                     <p>Corona ist noch nicht vorbei. Um unsere älteren Mitbürger zu schützen klären wir sie weiter auf. Bei
                         Infektionssymptomen bleiben sie bitte Zuhause...<a href="#">weiterlesen</a></p>
                 </div>
+                <div class="news-feld">
+                    <a href="neubau.php"><img src="../../img/bauschild.jpg" alt="Bauschild" class="newsbild"></a>
+                    <h1><a href="#" class="titel">Neubau der Eisenbahnüberführung</a></h1>
+                    <p>In diesem Jahr beginnt in Trier-West ein weiteres Großprojekt - neben dem laufenden Bau der neuen Verbindungsstraße. 
+                        Über zehn Millionen Euro fließen in den Neubau der Eisenbahnüberführung...<a href="neubau.php">weiterlesen</a></p>
+                </div>
             </div>
         </main>
 
