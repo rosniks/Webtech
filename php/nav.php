@@ -3,7 +3,7 @@
 
         <a class="logo" href="index.php">GEMEINDEZENTRUM<br>Trier-West</a>
 
-        <a href="#" class="sandwich-button">
+        <a class="sandwich-button">
             <span class="strich"></span>
             <span class="strich"></span>
             <span class="strich"></span>

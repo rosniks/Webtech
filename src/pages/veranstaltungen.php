@@ -24,7 +24,8 @@
             <p>Sie möchten genaueres zu einer Veranstaltung wissen? Klicken Sie auf die entsprechende Tabellen-Spalte!</p>
 
             <!--Input für die Veranstaltungssuche-->
-            <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Tabelle durchsuchen">
+            <label for="searchbar">Tabelle durchsuchen</label>
+            <input id="searchbar" onkeyup="search_veranstaltung()" type="text" name="search" placeholder="Suchbegriff">
 
             <!--Beginn der Veranstaltungstabelle-->
             <div class="tableContainer">
