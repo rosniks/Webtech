@@ -50,10 +50,10 @@
                 </div>
                 <div class="formating">
                     <div class="photo">
-                        <img src="./../../img/pexels-andrea-piacquadio-845434.jpg" alt="image" class="round">
+                        <img src="./../../img/niklas.jpg" alt="image" class="round">
                     </div>
-                    <h3>Thomas Fischer</h3>
-                    <p class="role">Community Manager</p>
+                    <h3>Niklas Rose</h3>
+                    <p class="role">Community Manager <br> niklasrose@gztw.de</p>
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
                     <img src="./../../img/pexels-rodnae-productions-8126654.jpg" alt="phrase" class="round">
                 </div>
                 <h3>Lara Biewers</h3>
-                <p class="role">Web-Entwicklerin <br> larabiewers@gmail.com</p>
+                <p class="role">Web-Entwicklerin <br> larabiewers@gztw.com</p>
             </div>
             <div class="formating">
                 <div class="photo">
