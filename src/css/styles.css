@@ -162,6 +162,81 @@ main p,
     height: auto;
 }
 
+/*............News-Artikel.............*/
+article {
+    border-radius: 10px;
+    background-color: #2a6b471c;
+    display: block;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+article > h1 {
+    font-size: x-large;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+}
+
+article p {
+    margin: 0;
+    padding: 1rem 10% 2rem 10%;
+}
+
+article h2 {
+    margin: 0;
+    padding: 1rem 10% 1rem 10%;
+}
+
+time {
+    margin-left: 10%;
+    font-size: smaller;
+    color: #5d5d5d;
+}
+
+figure > figcaption {
+    color: #3c3c3c;
+    font-size: small;
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure > img {
+    display: block;
+    width: 60vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title-inh {
+    margin-top: 4rem;
+    background-color: #2a6b4726;
+    padding: 20px;
+    margin-left: 10vw;
+    width: 218px;
+    border-radius: 50px;
+}
+
+.Inhaltsverzeichnis a {
+    color: #000000;
+    font-style: none;
+}
+
+.list-inhalt {
+    list-style: square;
+}
+
+.Inhaltsverzeichnis nav {
+    margin-left: 10%;
+    margin-bottom: 4rem;
+}
+
+.source {
+    font-style: italic;
+    color: #3f3f3f;
+}
 
 /*..........Searchbar-Design..........*/
 
