@@ -13,7 +13,7 @@
             <ul>
                 <li>
                     <a href="veranstaltungen.php"
-                        class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/veranstaltungen.php' ? 'aktuell' : ''); ?>">Veranstaltungen</a>
+                        class="<?php echo ($_SERVER['PHP_SELF'] == '/Webtech/src/pages/veranstaltungen.php' || $_SERVER['PHP_SELF'] == '/Webtech/src/pages/kurse.php' ? 'aktuell' : ''); ?>">Veranstaltungen</a>
                 </li>
                 <li>
                     <a href="raeume.php"
