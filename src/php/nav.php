@@ -1,7 +1,7 @@
 <header class="stick">
     <nav class="navbar">
 
-        <a class="logo" href="index.php">GEMEINDEZENTRUM<br>Trier-West</a>
+        <a class="logo" href="../../index.php">GEMEINDEZENTRUM<br>Trier-West</a>
 
         <a class="sandwich-button">
             <span class="strich"></span>

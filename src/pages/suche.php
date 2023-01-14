@@ -13,7 +13,7 @@
     <body>
 
         <!--Navigation-bar-->
-        <?php include "../../php/nav.php"; ?>
+        <?php include "../php/nav.php"; ?>
 
         <!--Main-Content-->
         <main>
@@ -35,7 +35,7 @@
         </main>
 
         <!--Footer-->
-        <?php include '../../php/footer.php'; ?>
+        <?php include '../php/footer.php'; ?>
     
     </body>
     

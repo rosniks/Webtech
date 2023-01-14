@@ -54,18 +54,18 @@
 }
 
 .sandwich-button {
-    top: 1.4rem;
-    right: 1rem;
+    top: 2.4rem;
+    right: 2rem;
     position: absolute;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 40px;
-    height: 25px;
+    width: 50px;
+    height: 33px;
 }
 
 .sandwich-button .strich {
-    height: 3px;
+    height: 4px;
     width: 100%;
     background-color: white;
     border-radius: 10px;
