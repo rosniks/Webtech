@@ -39,14 +39,14 @@
                         <img src="./../../img/pexels-christina-morillo-1181686.jpg" alt="image" class="round">
                     </div>
                     <h3>Julia Müller</h3>
-                    <p class="role">Gründerin</p>
+                    <p class="role">Gründerin <br> juliamueller@gztw.de</p>
                 </div>
                 <div class="formating">
                     <div class="photo">
                         <img src="./../../img/pexels-moose-photos-1036623.jpg" alt="image" class="round">
                     </div>
                     <h3>Maria Schmidt</h3>
-                    <p class="role">Direktorin</p>
+                    <p class="role">Direktorin <br> mariaschmidt@gztw.de</p>
                 </div>
                 <div class="formating">
                     <div class="photo">
@@ -60,24 +60,24 @@
         <div class="step_b">
             <div class="formating">
                 <div class="photo">
-                    <img src="./../../img/pexels-rodnae-productions-8126654.jpg" alt="phrase" class="round">
+                    <img src="./../../img/Lara.jpg" alt="phrase" class="round">
                 </div>
                 <h3>Lara Biewers</h3>
-                <p class="role">Web-Entwicklerin <br> larabiewers@gztw.com</p>
+                <p class="role">Web-Entwicklerin <br> larabiewers@gztw.de</p>
             </div>
             <div class="formating">
                 <div class="photo">
                     <img src="./../../img/pexels-moose-photos-1036627.jpg" alt="image" class="round">
                 </div>
                 <h3>Jacob Becker</h3>
-                <p class="role">DJ</p>
+                <p class="role">DJ <br> jacobbecker@gztw.de</p>
             </div>
             <div class="formating">
                 <div class="photo">
                     <img src="./../../img/pexels-shvets-production-8417269.jpg" alt="image" class="round">
                 </div>
                 <h3>Anna Schulz</h3>
-                <p class="role">Animateurin</p>
+                <p class="role">Animateurin <br> annaschulu@gztw.de</p>
             </div>
         </div>
 
