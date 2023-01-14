@@ -409,7 +409,6 @@ p.sUebersicht {
     justify-content: space-around;
 }
 
-
 .raumplanEl img {
     max-height: 480px;
     width: auto;
@@ -420,11 +419,6 @@ p.sUebersicht {
         width: 80vw;
         height: auto;
     }
-
-    .raummap {
-        display: none;
-    }
-}
 
 .container-raumbeschreibung {
     min-height: 25rem;

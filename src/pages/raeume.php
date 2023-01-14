@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/nav-bar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../js/nav-bar.js" defer></script>
+    <script src="../js/imapresp.js" defer></script>
     <title>Räume</title>
 </head>
 
