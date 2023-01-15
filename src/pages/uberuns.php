@@ -61,7 +61,7 @@
         <div class="step_b">
             <div class="formating">
                 <div class="photo">
-                    <img src="./../../img/Lara.jpg" alt="phrase" class="round">
+                    <img src="./../../img/Lara.jpg" alt="image" class="round">
                 </div>
                 <h3>Lara Biewers</h3>
                 <p class="role">Web-Entwicklerin <br> larabiewers@gztw.de</p>
