@@ -85,7 +85,7 @@
                 Erfassung der durch den Cookie erzeugten und auf Ihre Nutzung der
                 Website bezogenen Daten an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie
                 das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a
-                    href=http://tools.google.com/dlpage/gaoptout?hl=de>http://tools.google.com/dlpage/gaoptout?hl=de</a>
+                    href="http://tools.google.com/dlpage/gaoptout?hl=de">http://tools.google.com/dlpage/gaoptout?hl=de</a>
 
             </p>
             <h2>Datenschutzerklärung für die Nutzung von Google AdSense</h2>
