@@ -12,8 +12,10 @@ Lara Biewers
 Niklas Rose
 - index.php
 - raeume.php
+- neubau.php
 + Header / Footer (css & php & js)
 + slider.js
++ imapresp.js
 
 Marta Khatsiur
 - uberuns.php
