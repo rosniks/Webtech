@@ -581,3 +581,7 @@ fieldset>div.formBreak {
     width: 100%;
     transition: all .5s;
 }
+
+    .photo:hover {
+        box-shadow: 0 0 10px #000;
+    }
